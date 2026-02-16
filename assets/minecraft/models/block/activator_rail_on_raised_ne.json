@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/activator_rail_raised_ne",
+	"textures": {
+		"rail": "minecraft:block/activator_rail_on"
+	}
+}
