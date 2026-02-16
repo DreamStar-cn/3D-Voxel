@@ -1,0 +1,32 @@
+{
+	"author": "Dream Star",
+	"textures": {
+		"particle": "#bars"
+	},
+	"elements": [
+		{
+			"from": [ 7, 0, 7 ],
+			"to": [ 9, 1, 9 ],
+			"faces": {
+				"north": { "uv": [ 2, 3, 4, 4 ], "texture": "#edge" },
+				"east":  { "uv": [ 2, 4, 3, 2 ], "rotation": 90, "texture": "#edge" },
+				"south": { "uv": [ 4, 2, 2, 3 ], "texture": "#edge" },
+				"west":  { "uv": [ 3, 2, 4, 4 ], "rotation": 90, "texture": "#edge" },
+				"up":    { "uv": [ 4, 4, 2, 2 ], "texture": "#edge" },
+				"down":  { "uv": [ 4, 2, 2, 4 ], "texture": "#edge", "cullface": "down" }
+			}
+		},
+		{
+			"from": [ 7, 15, 7 ],
+			"to": [ 9, 16, 9 ],
+			"faces": {
+				"north": { "uv": [ 2, 3, 4, 4 ], "texture": "#edge" },
+				"east":  { "uv": [ 2, 4, 3, 2 ], "rotation": 90, "texture": "#edge" },
+				"south": { "uv": [ 4, 2, 2, 3 ], "texture": "#edge" },
+				"west":  { "uv": [ 3, 2, 4, 4 ], "rotation": 90, "texture": "#edge" },
+				"up":    { "uv": [ 4, 4, 2, 2 ], "texture": "#edge", "cullface": "up" },
+				"down":  { "uv": [ 4, 2, 2, 4 ], "texture": "#edge" }
+			}
+		}
+	]
+}
