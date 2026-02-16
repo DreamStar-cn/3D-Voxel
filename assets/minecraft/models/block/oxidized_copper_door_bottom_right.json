@@ -1,0 +1,9 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/copper_door_bottom_right",
+	"textures": {
+		"bottom": "minecraft:block/oxidized_copper_door_bottom",
+		"bottom1": "minecraft:block/oxidized_copper_door_bottom1",
+		"bottom2": "minecraft:block/oxidized_copper_door_bottom2"
+	}
+}

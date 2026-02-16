@@ -1,0 +1,9 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/oak_trapdoor_bottom_open",
+	"textures": {
+		"texture": "minecraft:block/iron_trapdoor",
+		"texture1": "minecraft:block/iron_trapdoor1",
+		"texture2": "minecraft:block/iron_trapdoor2"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/copper_trapdoor_top_open",
+	"textures": {
+		"texture": "minecraft:block/oxidized_copper_trapdoor",
+		"texture1": "minecraft:block/oxidized_copper_trapdoor1",
+		"texture2": "minecraft:block/oxidized_copper_trapdoor2"
+	}
+}

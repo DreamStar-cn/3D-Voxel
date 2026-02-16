@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/copper_bulb",
+	"textures": {
+		"all": "minecraft:block/oxidized_copper_bulb_powered"
+	}
+}

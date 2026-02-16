@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/redstone_lamp",
+	"textures": {
+		"all": "minecraft:block/redstone_lamp_on"
+	}
+}

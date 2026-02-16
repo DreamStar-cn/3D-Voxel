@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/powered_rail_raised_sw",
+	"textures": {
+		"rail": "minecraft:block/powered_rail_on"
+	}
+}
