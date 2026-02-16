@@ -1,0 +1,107 @@
+{
+	"author": "Dream Star",
+	"gui_light": "front",
+	"textures": {
+		"wind_charge": "minecraft:item/projectiles/wind_charge"
+	},
+	"elements": [
+		{
+			"from": [ 6, 6, 6 ],
+			"to": [ 10, 10, 10 ],
+			"rotation": { "angle": 180, "axis": "x", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 1, 2, 2, 4 ], "texture": "#wind_charge" },
+				"east":  { "uv": [ 0, 2, 1, 4 ], "texture": "#wind_charge" },
+				"south": { "uv": [ 3, 2, 4, 4 ], "texture": "#wind_charge" },
+				"west":  { "uv": [ 2, 2, 3, 4 ], "texture": "#wind_charge" },
+				"up":    { "uv": [ 2, 2, 1, 0 ], "texture": "#wind_charge" },
+				"down":  { "uv": [ 3, 0, 2, 2 ], "texture": "#wind_charge" }
+			}
+		},
+		{
+			"from": [ 6, 10, 6 ],
+			"to": [ 10, 6, 10 ],
+			"rotation": { "angle": 180, "axis": "x", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 1, 4, 2, 2 ], "texture": "#wind_charge" },
+				"east":  { "uv": [ 0, 4, 1, 2 ], "texture": "#wind_charge" },
+				"south": { "uv": [ 3, 4, 4, 2 ], "texture": "#wind_charge" },
+				"west":  { "uv": [ 2, 4, 3, 2 ], "texture": "#wind_charge" },
+				"up":    { "uv": [ 3, 2, 2, 0 ], "texture": "#wind_charge" },
+				"down":  { "uv": [ 2, 0, 1, 2 ], "texture": "#wind_charge" }
+			}
+		},
+		{
+			"from": [ 5, 6, 5 ],
+			"to": [ 11, 10, 11 ],
+			"faces": {
+				"north": { "uv": [ 1.5, 7.5, 3, 9.5 ], "texture": "#wind_charge" },
+				"east":  { "uv": [ 0, 7.5, 1.5, 9.5 ], "texture": "#wind_charge" },
+				"south": { "uv": [ 4.5, 7.5, 6, 9.5 ], "texture": "#wind_charge" },
+				"west":  { "uv": [ 3, 7.5, 4.5, 9.5 ], "texture": "#wind_charge" }
+			}
+		},
+		{
+			"from": [ 5, 10, 5 ],
+			"to": [ 11, 6, 11 ],
+			"faces": {
+				"north": { "uv": [ 1.5, 9.5, 3, 7.5 ], "texture": "#wind_charge" },
+				"east":  { "uv": [ 0, 9.5, 1.5, 7.5 ], "texture": "#wind_charge" },
+				"south": { "uv": [ 4.5, 9.5, 6, 7.5 ], "texture": "#wind_charge" },
+				"west":  { "uv": [ 3, 9.5, 4.5, 7.5 ], "texture": "#wind_charge" }
+			}
+		},
+		{
+			"from": [ 4, 7, 4 ],
+			"to": [ 12, 9, 12 ],
+			"faces": {
+				"north": { "uv": [ 5.75, 14, 7.75, 15 ], "texture": "#wind_charge" },
+				"east":  { "uv": [ 3.75, 14, 5.75, 15 ], "texture": "#wind_charge" },
+				"south": { "uv": [ 9.75, 14, 11.75, 15 ], "texture": "#wind_charge" },
+				"west":  { "uv": [ 7.75, 14, 9.75, 15 ], "texture": "#wind_charge" }
+			}
+		},
+		{
+			"from": [ 4, 9, 4 ],
+			"to": [ 12, 7, 12 ],
+			"faces": {
+				"north": { "uv": [ 5.75, 15, 7.75, 14 ], "texture": "#wind_charge" },
+				"east":  { "uv": [ 3.75, 15, 5.75, 14 ], "texture": "#wind_charge" },
+				"south": { "uv": [ 9.75, 15, 11.75, 14 ], "texture": "#wind_charge" },
+				"west":  { "uv": [ 7.75, 15, 9.75, 14 ], "texture": "#wind_charge" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [ 30, 225, 0 ],
+			"scale": [ 1.25, 1.25, 1.25 ]
+		},
+		"ground": {
+			"translation": [ 0, 2, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"head": {
+			"translation": [ 0, 8, 0 ],
+			"scale": [ 1.5, 1.5, 1.5 ]
+		},
+		"on_shelf": {
+			"scale": [ 2, 2, 2 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 75, 45, 0 ],
+			"translation": [ 0, 1.25, 0 ],
+			"scale": [ 0.55, 0.55, 0.55 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, 45, 0 ],
+			"translation": [ 0, 2.4, 0 ],
+			"scale": [ 0.68, 0.68, 0.68 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 0, 225, 0 ],
+			"translation": [ 0, 2.4, 0 ],
+			"scale": [ 0.68, 0.68, 0.68 ]
+		}
+	}
+}
