@@ -1,0 +1,87 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/boat",
+	"textures": {
+		"boat": "minecraft:item/boat/bamboo"
+	},
+	"elements": [
+		{
+			"from": [ -7, -1, 4 ],
+			"to": [ 21, 19, 8 ],
+			"rotation": { "x": 0, "y": -90, "z": -90, "origin": [ 7, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 0.5, 1, 4, 6 ], "texture": "#boat" },
+				"east":  { "uv": [ 0, 1, 0.5, 6 ], "texture": "#boat" },
+				"south": { "uv": [ 4.5, 1, 8, 6 ], "texture": "#boat" },
+				"west":  { "uv": [ 4, 1, 4.5, 6 ], "texture": "#boat" },
+				"up":    { "uv": [ 4, 1, 0.5, 0 ], "texture": "#boat" },
+				"down":  { "uv": [ 7.5, 0, 4, 1 ], "texture": "#boat" }
+			}
+		},
+		{
+			"from": [ -7, 1, 0 ],
+			"to": [ 21, 17, 4 ],
+			"rotation": { "x": 0, "y": -90, "z": -90, "origin": [ 7, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 0.5, 1, 4, 5 ], "texture": "#boat" },
+				"east":  { "uv": [ 0, 1, 0.5, 5 ], "texture": "#boat" },
+				"south": { "uv": [ 4.5, 1, 8, 5 ], "texture": "#boat" },
+				"west":  { "uv": [ 4, 1, 4.5, 5 ], "texture": "#boat" },
+				"up":    { "uv": [ 4, 1, 0.5, 0 ], "texture": "#boat" },
+				"down":  { "uv": [ 7.5, 0, 4, 1 ], "texture": "#boat" }
+			}
+		},
+		{
+			"from": [ -2, 8, 0 ],
+			"to": [ 0, 10, 18 ],
+			"rotation": { "x": -124, "y": -50, "z": 165, "origin": [ -1, 10, 5 ] },
+			"faces": {
+				"north": { "uv": [ 2.25, 10.5, 2.5, 11 ], "texture": "#boat" },
+				"east":  { "uv": [ 0, 10.5, 2.25, 11 ], "texture": "#boat" },
+				"south": { "uv": [ 4.75, 10.5, 5, 11 ], "texture": "#boat" },
+				"west":  { "uv": [ 2.5, 10.5, 4.75, 11 ], "texture": "#boat" },
+				"up":    { "uv": [ 2.5, 10.5, 2.25, 6 ], "texture": "#boat" },
+				"down":  { "uv": [ 2.75, 6, 2.5, 10.5 ], "texture": "#boat" }
+			}
+		},
+		{
+			"from": [ -0.999, 7, 13 ],
+			"to": [ 0.001, 13, 20 ],
+			"rotation": { "x": -124, "y": -50, "z": 165, "origin": [ -1, 10, 5 ] },
+			"faces": {
+				"north": { "uv": [ 0.875, 7.75, 1, 9.25 ], "texture": "#boat" },
+				"east":  { "uv": [ 0, 7.75, 0.875, 9.25 ], "texture": "#boat" },
+				"south": { "uv": [ 1.875, 7.75, 2, 9.25 ], "texture": "#boat" },
+				"west":  { "uv": [ 1, 7.75, 1.875, 9.25 ], "texture": "#boat" },
+				"up":    { "uv": [ 1, 7.75, 0.875, 6 ], "texture": "#boat" },
+				"down":  { "uv": [ 1.125, 6, 1, 7.75 ], "texture": "#boat" }
+			}
+		},
+		{
+			"from": [ 16, 8, 0 ],
+			"to": [ 18, 10, 18 ],
+			"rotation": { "x": -124, "y": 50, "z": -165, "origin": [ 17, 10, 5 ] },
+			"faces": {
+				"north": { "uv": [ 7.25, 10.5, 7.5, 11 ], "texture": "#boat" },
+				"east":  { "uv": [ 5, 10.5, 7.25, 11 ], "texture": "#boat" },
+				"south": { "uv": [ 9.75, 10.5, 10, 11 ], "texture": "#boat" },
+				"west":  { "uv": [ 7.5, 10.5, 9.75, 11 ], "texture": "#boat" },
+				"up":    { "uv": [ 7.5, 10.5, 7.25, 6 ], "texture": "#boat" },
+				"down":  { "uv": [ 7.75, 6, 7.5, 10.5 ], "texture": "#boat" }
+			}
+		},
+		{
+			"from": [ 15.999, 7, 13 ],
+			"to": [ 16.999, 13, 20 ],
+			"rotation": { "x": -124, "y": 50, "z": -165, "origin": [ 17, 10, 5 ] },
+			"faces": {
+				"north": { "uv": [ 5.875, 7.75, 6, 9.25 ], "texture": "#boat" },
+				"east":  { "uv": [ 5, 7.75, 5.875, 9.25 ], "texture": "#boat" },
+				"south": { "uv": [ 6.875, 7.75, 7, 9.25 ], "texture": "#boat" },
+				"west":  { "uv": [ 6, 7.75, 6.875, 9.25 ], "texture": "#boat" },
+				"up":    { "uv": [ 6, 7.75, 5.875, 6 ], "texture": "#boat" },
+				"down":  { "uv": [ 6.125, 6, 6, 7.75 ], "texture": "#boat" }
+			}
+		}
+	]
+}

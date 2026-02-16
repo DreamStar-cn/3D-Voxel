@@ -1,0 +1,113 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/door",
+	"textures": {
+		"bottom": "minecraft:block/birch_door_bottom",
+		"bottom1": "minecraft:block/birch_door_bottom1",
+		"top": "minecraft:block/birch_door_top",
+		"top1": "minecraft:block/birch_door_top1"
+	},
+	"elements": [
+		{
+			"from": [ 6.5, -8, 0 ],
+			"to": [ 9.5, 8, 3 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 0, 0, 3, 16 ], "texture": "#bottom1" },
+				"east":  { "uv": [ 3, 0, 0, 16 ], "texture": "#bottom" },
+				"south": { "uv": [ 2, 0, 3, 16 ], "texture": "#bottom" },
+				"west":  { "uv": [ 0, 0, 3, 16 ], "texture": "#bottom" },
+				"down":  { "uv": [ 3, 3, 6, 0 ], "texture": "#bottom1" }
+			}
+		},
+		{
+			"from": [ 6.5, -8, 3 ],
+			"to": [ 9.5, 4, 13 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"east":  { "uv": [ 13, 4, 3, 16 ], "texture": "#bottom" },
+				"west":  { "uv": [ 3, 4, 13, 16 ], "texture": "#bottom" },
+				"up":    { "uv": [ 3, 4, 13, 5 ], "rotation": 90, "texture": "#bottom" },
+				"down":  { "uv": [ 3, 3, 6, 13 ], "texture": "#bottom1" }
+			}
+		},
+		{
+			"from": [ 7.5, 4, 3 ],
+			"to": [ 8.5, 8, 13 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"east":  { "uv": [ 13, 0, 3, 4 ], "texture": "#bottom" },
+				"west":  { "uv": [ 3, 0, 13, 4 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 6.5, -8, 13 ],
+			"to": [ 9.5, 8, 16 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 13, 0, 14, 16 ], "texture": "#bottom" },
+				"east":  { "uv": [ 16, 0, 13, 16 ], "texture": "#bottom" },
+				"south": { "uv": [ 13, 0, 16, 16 ], "texture": "#bottom1" },
+				"west":  { "uv": [ 13, 0, 16, 16 ], "texture": "#bottom" },
+				"down":  { "uv": [ 3, 16, 6, 13 ], "texture": "#bottom1" }
+			}
+		},
+		{
+			"from": [ 6.5, 8, 0 ],
+			"to": [ 9.5, 24, 3 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 0, 0, 3, 16 ], "texture": "#top1" },
+				"east":  { "uv": [ 3, 0, 0, 16 ], "texture": "#top" },
+				"south": { "uv": [ 2, 0, 3, 16 ], "texture": "#top" },
+				"west":  { "uv": [ 0, 0, 3, 16 ], "texture": "#top" },
+				"up":    { "uv": [ 3, 0, 6, 3 ], "texture": "#top1" }
+			}
+		},
+		{
+			"from": [ 7.5, 8, 3 ],
+			"to": [ 8.5, 21, 13 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"east":  { "uv": [ 13, 3, 3, 16 ], "texture": "#top" },
+				"west":  { "uv": [ 3, 3, 13, 16 ], "texture": "#top" }
+			}
+		},
+		{
+			"from": [ 6.5, 21, 3 ],
+			"to": [ 9.5, 24, 13 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"east":  { "uv": [ 13, 0, 3, 3 ], "texture": "#top" },
+				"west":  { "uv": [ 3, 0, 13, 3 ], "texture": "#top" },
+				"up":    { "uv": [ 3, 3, 6, 13 ], "texture": "#top1" },
+				"down":  { "uv": [ 13, 2, 3, 3 ], "rotation": 90, "texture": "#top" }
+			}
+		},
+		{
+			"from": [ 6.5, 8, 13 ],
+			"to": [ 9.5, 24, 16 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 13, 0, 14, 16 ], "texture": "#top" },
+				"east":  { "uv": [ 16, 0, 13, 16 ], "texture": "#top" },
+				"south": { "uv": [ 13, 0, 16, 16 ], "texture": "#top1" },
+				"west":  { "uv": [ 13, 0, 16, 16 ], "texture": "#top" },
+				"up":    { "uv": [ 3, 13, 6, 16 ], "texture": "#top1" }
+			}
+		},
+		{
+			"from": [ 5.5001, 8.001, 14.001 ],
+			"to": [ 10.5, 9.999, 14.999 ],
+			"rotation": { "angle": -90, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 14, 14, 15, 16 ], "texture": "#top" },
+				"east":  { "uv": [ 14, 14, 15, 16 ], "texture": "#top" },
+				"south": { "uv": [ 14, 14, 15, 16 ], "texture": "#top" },
+				"west":  { "uv": [ 14, 14, 15, 16 ], "texture": "#top" },
+				"up":    { "uv": [ 14, 14, 15, 15 ], "texture": "#top" },
+				"down":  { "uv": [ 14, 15, 15, 16 ], "texture": "#top" }
+			}
+		}
+	]
+}

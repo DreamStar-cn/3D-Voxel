@@ -1,0 +1,95 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"end_crystal": "minecraft:item/end_crystal/end_crystal"
+	},
+	"elements": [
+		{
+			"from": [ 2, 2, 2 ],
+			"to": [ 14, 14, 14 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 10, 4, 12, 8 ], "texture": "#end_crystal" },
+				"east":  { "uv": [ 8, 4, 10, 8 ], "texture": "#end_crystal" },
+				"south": { "uv": [ 14, 4, 16, 8 ], "texture": "#end_crystal" },
+				"west":  { "uv": [ 12, 4, 14, 8 ], "texture": "#end_crystal" },
+				"up":    { "uv": [ 12, 4, 10, 0 ], "texture": "#end_crystal" },
+				"down":  { "uv": [ 14, 0, 12, 4 ], "texture": "#end_crystal" }
+			}
+		},
+		{
+			"from": [ 1, 1, 1 ],
+			"to": [ 15, 15, 15 ],
+			"rotation": { "angle": 45, "axis": "z", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 2, 4, 4, 8 ], "texture": "#end_crystal" },
+				"east":  { "uv": [ 0, 4, 2, 8 ], "texture": "#end_crystal" },
+				"south": { "uv": [ 6, 4, 8, 8 ], "texture": "#end_crystal" },
+				"west":  { "uv": [ 4, 4, 6, 8 ], "texture": "#end_crystal" },
+				"up":    { "uv": [ 4, 4, 2, 0 ], "texture": "#end_crystal" },
+				"down":  { "uv": [ 6, 0, 4, 4 ], "texture": "#end_crystal" }
+			}
+		},
+		{
+			"from": [ 1, 15, 1 ],
+			"to": [ 15, 1, 15 ],
+			"rotation": { "angle": 45, "axis": "z", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 2, 8, 4, 4 ], "texture": "#end_crystal" },
+				"east":  { "uv": [ 0, 8, 2, 4 ], "texture": "#end_crystal" },
+				"south": { "uv": [ 6, 8, 8, 4 ], "texture": "#end_crystal" },
+				"west":  { "uv": [ 4, 8, 6, 4 ], "texture": "#end_crystal" },
+				"up":    { "uv": [ 6, 4, 4, 0 ], "texture": "#end_crystal" },
+				"down":  { "uv": [ 4, 0, 2, 4 ], "texture": "#end_crystal" }
+			}
+		},
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"rotation": { "angle": 45, "axis": "x", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 2, 4, 4, 8 ], "texture": "#end_crystal" },
+				"east":  { "uv": [ 0, 4, 2, 8 ], "texture": "#end_crystal" },
+				"south": { "uv": [ 6, 4, 8, 8 ], "texture": "#end_crystal" },
+				"west":  { "uv": [ 4, 4, 6, 8 ], "texture": "#end_crystal" },
+				"up":    { "uv": [ 4, 4, 2, 0 ], "texture": "#end_crystal" },
+				"down":  { "uv": [ 6, 0, 4, 4 ], "texture": "#end_crystal" }
+			}
+		},
+		{
+			"from": [ 0, 16, 0 ],
+			"to": [ 16, 0, 16 ],
+			"rotation": { "angle": 45, "axis": "x", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 2, 8, 4, 4 ], "texture": "#end_crystal" },
+				"east":  { "uv": [ 0, 8, 2, 4 ], "texture": "#end_crystal" },
+				"south": { "uv": [ 6, 8, 8, 4 ], "texture": "#end_crystal" },
+				"west":  { "uv": [ 4, 8, 6, 4 ], "texture": "#end_crystal" },
+				"up":    { "uv": [ 6, 4, 4, 0 ], "texture": "#end_crystal" },
+				"down":  { "uv": [ 4, 0, 2, 4 ], "texture": "#end_crystal" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [ 45, 180, 0 ],
+			"scale": [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"rotation": [ 54.7356, 0, 0 ],
+			"translation": [ 0, 3, 0 ],
+			"scale": [ 0.25, 0.25, 0.25 ]
+		},
+		"head": {
+			"rotation": [ 45, 0, 0 ]
+		},
+		"fixed": {
+			"rotation": [ 54.7356, 0, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"on_shelf": {
+			"rotation": [ 54.7356, 180, 0 ]
+		}
+	}
+}

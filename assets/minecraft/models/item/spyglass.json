@@ -1,0 +1,9 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/spyglass_in_hand",
+	"display": {
+		"on_shelf": {
+			"scale": [ 1.5, 1.5, 1.5 ]
+		}
+	}
+}

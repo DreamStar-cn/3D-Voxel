@@ -1,0 +1,17 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/campfire",
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [ 0, 45, 0 ],
+			"translation": [ 0, 3.2, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 0, 225, 0 ],
+			"translation": [ 0, 3.2, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/copper_door",
+	"textures": {
+		"bottom": "minecraft:block/exposed_copper_door_bottom",
+		"bottom1": "minecraft:block/exposed_copper_door_bottom1",
+		"bottom2": "minecraft:block/exposed_copper_door_bottom2",
+		"top": "minecraft:block/exposed_copper_door_top",
+		"top1": "minecraft:block/exposed_copper_door_top1",
+		"top2": "minecraft:block/exposed_copper_door_top2"
+	}
+}
