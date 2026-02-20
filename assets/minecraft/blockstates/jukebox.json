@@ -1,0 +1,12 @@
+{
+	"author": "Dream Star",
+	"multipart": [
+		{
+			"apply": { "model": "minecraft:block/jukebox" }
+		},
+		{
+			"apply": { "model": "minecraft:block/music_disc" },
+			"when": { "has_record": "true" }
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"author": "Dream Star",
+	"textures": {
+		"particle": "minecraft:block/music_disc"
+	},
+	"elements": [
+		{
+			"from": [ 8, 5.5, 6 ],
+			"to": [ 9, 6.5, 10 ],
+			"faces": {
+				"north": { "uv": [ 6, 12, 7, 13 ], "texture": "#particle", "cullface": "up" },
+				"south": { "uv": [ 9, 12, 10, 13 ], "texture": "#particle", "cullface": "up" },
+				"west":  { "uv": [ 6, 12, 10, 13 ], "texture": "#particle", "cullface": "up" }
+			}
+		},
+		{
+			"from": [ 8, 6.5, 4 ],
+			"to": [ 9, 8.5, 12 ],
+			"faces": {
+				"north": { "uv": [ 4, 10, 5, 12 ], "texture": "#particle", "cullface": "up" },
+				"south": { "uv": [ 11, 10, 12, 12 ], "texture": "#particle", "cullface": "up" },
+				"west":  { "uv": [ 4, 10, 12, 12 ], "texture": "#particle", "cullface": "up" },
+				"down":  { "uv": [ 12, 11, 4, 12 ], "rotation": 90, "texture": "#particle", "cullface": "up" }
+			}
+		},
+		{
+			"from": [ 8, 8.5, 3 ],
+			"to": [ 9, 12.5, 13 ],
+			"faces": {
+				"north": { "uv": [ 3, 6, 4, 10 ], "texture": "#particle", "cullface": "up" },
+				"south": { "uv": [ 12, 6, 13, 10 ], "texture": "#particle", "cullface": "up" },
+				"west":  { "uv": [ 3, 6, 13, 10 ], "texture": "#particle", "cullface": "up" },
+				"up":    { "uv": [ 3, 6, 13, 7 ], "rotation": 90, "texture": "#particle", "cullface": "up" },
+				"down":  { "uv": [ 13, 9, 3, 10 ], "rotation": 90, "texture": "#particle", "cullface": "up" }
+			}
+		},
+		{
+			"from": [ 8, 12.5, 4 ],
+			"to": [ 9, 14.5, 12 ],
+			"faces": {
+				"north": { "uv": [ 4, 4, 5, 6 ], "texture": "#particle", "cullface": "up" },
+				"south": { "uv": [ 11, 4, 12, 6 ], "texture": "#particle", "cullface": "up" },
+				"west":  { "uv": [ 4, 4, 12, 6 ], "texture": "#particle", "cullface": "up" },
+				"up":    { "uv": [ 4, 4, 12, 5 ], "rotation": 90, "texture": "#particle", "cullface": "up" }
+			}
+		},
+		{
+			"from": [ 8, 14.5, 6 ],
+			"to": [ 9, 15.5, 10 ],
+			"faces": {
+				"north": { "uv": [ 6, 3, 7, 4 ], "texture": "#particle", "cullface": "up" },
+				"south": { "uv": [ 9, 3, 10, 4 ], "texture": "#particle", "cullface": "up" },
+				"west":  { "uv": [ 6, 3, 10, 4 ], "texture": "#particle", "cullface": "up" },
+				"up":    { "uv": [ 6, 3, 10, 4 ], "rotation": 90, "texture": "#particle", "cullface": "up" }
+			}
+		}
+	]
+}
