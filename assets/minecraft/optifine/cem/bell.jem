@@ -6,7 +6,7 @@
 			"part": "body",
 			"id": "body",
 			"invertAxis": "xy",
-			"translate": [ 8.0, -12.0, -8.0 ],
+			"translate": [ 8, -12, -8 ],
 			"boxes": [
 				{
 					"coordinates": [ -11, 11, 5, 1, 7, 6 ],
@@ -50,7 +50,7 @@
 				{
 					"id": "pendulum",
 					"invertAxis": "xy",
-					"translate": [ -8.0, 12.0, 8.0 ],
+					"translate": [ -8, 12, 8 ],
 					"boxes": [
 						{
 							"coordinates": [ -1, 6, -1, 2, 2, 2 ],
@@ -81,7 +81,7 @@
 			"part": "base",
 			"id": "base",
 			"invertAxis": "xy",
-			"translate": [ 0.0, -24.0, 0.0 ],
+			"translate": [ 0, -24, 0 ],
 			"boxes": [
 				{
 					"coordinates": [ -12, 18, 4, 1, 2, 8 ],

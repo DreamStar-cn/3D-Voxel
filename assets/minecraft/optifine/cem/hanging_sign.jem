@@ -3,24 +3,6 @@
 	"textureSize": [ 64, 32 ],
 	"models": [
 		{
-			"part": "board",
-			"id": "board",
-			"invertAxis": "xy",
-			"translate": [ 0.0, -24.0, 0.0 ],
-			"boxes": [
-				{ "coordinates": [ -7, 14, -1, 14, 10, 2 ], "textureOffset": [ 0, 12 ] }
-			]
-		},
-		{
-			"part": "plank",
-			"id": "plank",
-			"invertAxis": "xy",
-			"translate": [ 0, -24, 0 ],
-			"boxes": [
-				{ "coordinates": [ -8, 28, -2, 16, 2, 4 ], "textureOffset": [ 0, 0 ] }
-			]
-		},
-		{
 			"part": "chain_left1",
 			"id": "chain_left1",
 			"invertAxis": "xy",
