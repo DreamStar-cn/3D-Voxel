@@ -1,35 +1,121 @@
 {
-  "models": [
-    {
-      "invertAxis": "xy",
-      "part": "body",
-      "id": "body",
-      "attach": false,
-      "translate": [
-        8.0,
-        -12.0,
-        -8.0
-      ],
-      "boxes": [
-        {
-          "textureOffset": [
-            0,
-            0
-          ],
-          "coordinates": [
-            -11.0,
-            11.0,
-            5.0,
-            6.0,
-            7.0,
-            6.0
-          ]
-        }
-      ]
-    }
-  ],
-  "textureSize": [
-    32,
-    32
-  ]
+	"author": "Dream Star",
+	"textureSize": [ 32, 32 ],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [ 8.0, -12.0, -8.0 ],
+			"boxes": [
+				{
+					"coordinates": [ -11, 11, 5, 1, 7, 6 ],
+					"uvNorth": [ 11, 6, 12, 13 ],
+					"uvEast": [ 0, 6, 6, 13 ],
+					"uvSouth": [ 18, 6, 19, 13 ],
+					"uvWest": [ 12, 6, 18, 13 ],
+					"uvUp": [ 12, 6, 11, 0 ],
+					"uvDown": [ 18, 0, 17, 6 ]
+				},
+				{
+					"coordinates": [ -10, 11, 10, 4, 7, 1 ],
+					"uvNorth": [ 7, 6, 11, 13 ],
+					"uvSouth": [ 19, 6, 23, 13 ],
+					"uvUp": [ 11, 1, 7, 0 ],
+					"uvDown": [ 17, 0, 13, 1 ]
+				},
+				{
+					"coordinates": [ -10, 11, 5, 4, 7, 1 ],
+					"uvNorth": [ 7, 6, 11, 13 ],
+					"uvSouth": [ 19, 6, 23, 13 ],
+					"uvUp": [ 11, 6, 7, 5 ],
+					"uvDown": [ 17, 5, 13, 6 ]
+				},
+				{
+					"coordinates": [ -6, 11, 5, 1, 7, 6 ],
+					"uvNorth": [ 6, 6, 7, 13 ],
+					"uvEast": [ 0, 6, 6, 13 ],
+					"uvSouth": [ 23, 6, 24, 13 ],
+					"uvWest": [ 12, 6, 18, 13 ],
+					"uvUp": [ 7, 6, 6, 0 ],
+					"uvDown": [ 13, 0, 12, 6 ]
+				},
+				{
+					"coordinates": [ -10, 11, 6, 4, 1, 4 ],
+					"uvUp": [ 11, 5, 7, 1 ],
+					"uvDown": [ 17, 1, 13, 5 ]
+				}
+			],
+			"submodels": [
+				{
+					"id": "pendulum",
+					"invertAxis": "xy",
+					"translate": [ -8.0, 12.0, 8.0 ],
+					"boxes": [
+						{
+							"coordinates": [ -1, 6, -1, 2, 2, 2 ],
+							"uvNorth": [ 10, 11, 12, 13 ],
+							"uvEast": [ 4, 11, 6, 13 ],
+							"uvSouth": [ 22, 11, 24, 13 ],
+							"uvWest": [ 16, 11, 18, 13 ],
+							"uvUp": [ 13, 18, 11, 16 ]
+						},
+						{
+							"coordinates": [ -1, 0, -1, 2, 6, 2 ],
+							"uvNorth": [ 10, 13, 12, 7 ],
+							"uvEast": [ 4, 13, 6, 7 ],
+							"uvSouth": [ 22, 13, 24, 7 ],
+							"uvWest": [ 16, 13, 18, 7 ]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"pendulum.rx": "body.rx",
+					"pendulum.rz": "body.rz"
+				}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [ 0.0, -24.0, 0.0 ],
+			"boxes": [
+				{
+					"coordinates": [ -12, 18, 4, 1, 2, 8 ],
+					"uvNorth": [ 15, 21, 16, 23 ],
+					"uvEast": [ 0, 21, 8, 23 ],
+					"uvSouth": [ 24, 21, 25, 23 ],
+					"uvWest": [ 16, 21, 24, 23 ],
+					"uvUp": [ 16, 21, 15, 13 ],
+					"uvDown": [ 24, 13, 23, 21 ]
+				},
+				{
+					"coordinates": [ -11, 18, 11, 6, 2, 1 ],
+					"uvNorth": [ 9, 21, 15, 23 ],
+					"uvSouth": [ 25, 21, 31, 23 ],
+					"uvUp": [ 15, 14, 9, 13 ],
+					"uvDown": [ 23, 13, 17, 14 ]
+				},
+				{
+					"coordinates": [ -11, 18, 4, 6, 2, 1 ],
+					"uvNorth": [ 9, 21, 15, 23 ],
+					"uvSouth": [ 25, 21, 31, 23 ],
+					"uvUp": [ 15, 21, 9, 20 ],
+					"uvDown": [ 23, 20, 17, 21 ]
+				},
+				{
+					"coordinates": [ -5, 18, 4, 1, 2, 8 ],
+					"uvNorth": [ 8, 21, 9, 23 ],
+					"uvEast": [ 0, 21, 8, 23 ],
+					"uvSouth": [ 31, 21, 32, 23 ],
+					"uvWest": [ 16, 21, 24, 23 ],
+					"uvUp": [ 9, 21, 8, 13 ],
+					"uvDown": [ 17, 13, 16, 21 ]
+				}
+			]
+		}
+	]
 }
