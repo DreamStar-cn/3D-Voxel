@@ -1,0 +1,29 @@
+{
+	"author": "Dream Star",
+	"textureSize": [ 64, 64 ],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"model": "chest_base.jpm"
+		},
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [ 0, -15, -1 ],
+			"model": "chest_lid.jpm"
+		},
+		{
+			"part": "knob",
+			"id": "knob",
+			"invertAxis": "xy",
+			"translate": [ 0, -15, -1 ],
+			"boxes": [
+				{ "coordinates": [ -9, 13, 15, 2, 4, 1 ], "textureOffset": [ 0, 0 ] }
+			]
+		}
+	]
+}
