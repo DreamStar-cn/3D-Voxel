@@ -1,0 +1,9 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/cake",
+	"display": {
+		"head": {
+			"translation": [ 0, 13, 0 ]
+		}
+	}
+}

@@ -1,0 +1,165 @@
+{
+	"author": "Dream Star",
+	"textureSize": [ 64, 32 ],
+	"models": [
+		{
+			"part": "cover_left",
+			"id": "cover_left",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, -1 ],
+			"boxes": [
+				{
+					"coordinates": [ -6, 19, 0.875, 6, 10, 0.125 ],
+					"uvNorth": [ 16, 0, 22, 10 ],
+					"uvEast":  [ 27, 0, 28, 10 ],
+					"uvSouth": [ 22, 0, 28, 10 ],
+					"uvWest":  [ 22, 0, 23, 10 ],
+					"uvUp":    [ 22, 0, 28, 1 ],
+					"uvDown":  [ 22, 9, 28, 10 ]
+				},
+				{
+					"coordinates": [ -5, 19, 0.8125, 1, 1, 0.25 ],
+					"uvNorth": [ 23, 9, 24, 10 ],
+					"uvEast":  [ 23, 9, 24, 10 ],
+					"uvSouth": [ 23, 9, 24, 10 ],
+					"uvWest":  [ 23, 9, 24, 10 ],
+					"uvUp":    [ 23, 9, 24, 10 ],
+					"uvDown":  [ 23, 9, 24, 10 ]
+				},
+				{
+					"coordinates": [ -6, 20, 0.8125, 1, 1, 0.25 ],
+					"uvNorth": [ 22, 8, 23, 9 ],
+					"uvEast":  [ 22, 8, 23, 9 ],
+					"uvSouth": [ 22, 8, 23, 9 ],
+					"uvWest":  [ 22, 8, 23, 9 ],
+					"uvUp":    [ 22, 8, 23, 9 ],
+					"uvDown":  [ 22, 8, 23, 9 ]
+				},
+				{
+					"coordinates": [ -6, 27, 0.8125, 1, 1, 0.25 ],
+					"uvNorth": [ 22, 1, 23, 2 ],
+					"uvEast":  [ 22, 1, 23, 2 ],
+					"uvSouth": [ 22, 1, 23, 2 ],
+					"uvWest":  [ 22, 1, 23, 2 ],
+					"uvUp":    [ 22, 1, 23, 2 ],
+					"uvDown":  [ 22, 1, 23, 2 ]
+				},
+				{
+					"coordinates": [ -5, 28, 0.8125, 1, 1, 0.25 ],
+					"uvNorth": [ 23, 0, 24, 1 ],
+					"uvEast":  [ 23, 0, 24, 1 ],
+					"uvSouth": [ 23, 0, 24, 1 ],
+					"uvWest":  [ 23, 0, 24, 1 ],
+					"uvUp":    [ 23, 0, 24, 1 ],
+					"uvDown":  [ 23, 0, 24, 1 ]
+				}
+			]
+		},
+		{
+			"part": "book_spine",
+			"id": "book_spine",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0.125 ],
+			"boxes": [
+				{
+					"coordinates": [ -0.999, 19.001, -0.126, 1.998, 9.998, 0.126 ],
+					"uvNorth": [ 12, 0, 14, 10 ],
+					"uvEast":  [ 12, 0, 13, 10 ],
+					"uvSouth": [ 14, 0, 16, 10 ],
+					"uvWest":  [ 13, 0, 14, 10 ],
+					"uvUp":    [ 14, 0, 12, 1 ],
+					"uvDown":  [ 14, 9, 12, 10 ]
+				}
+			]
+		},
+		{
+			"part": "cover_right",
+			"id": "cover_right",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 1 ],
+			"boxes": [
+				{
+					"coordinates": [ 0, 19, -1.125, 6, 10, 0.125 ],
+					"uvNorth": [ 0, 0, 6, 10 ],
+					"uvEast":  [ 11, 0, 12, 10 ],
+					"uvSouth": [ 6, 0, 12, 10 ],
+					"uvWest":  [ 6, 0, 7, 10 ],
+					"uvUp":    [ 6, 0, 12, 1 ],
+					"uvDown":  [ 6, 9, 12, 10 ]
+				},
+				{
+					"coordinates": [ 4, 19, -1.1875, 1, 1, 0.25 ],
+					"uvNorth": [ 10, 9, 11, 10 ],
+					"uvEast":  [ 10, 9, 11, 10 ],
+					"uvSouth": [ 10, 9, 11, 10 ],
+					"uvWest":  [ 10, 9, 11, 10 ],
+					"uvUp":    [ 10, 9, 11, 10 ],
+					"uvDown":  [ 10, 9, 11, 10 ]
+				},
+				{
+					"coordinates": [ 5, 20, -1.1875, 1, 1, 0.25 ],
+					"uvNorth": [ 11, 8, 12, 9 ],
+					"uvEast":  [ 11, 8, 12, 9 ],
+					"uvSouth": [ 11, 8, 12, 9 ],
+					"uvWest":  [ 11, 8, 12, 9 ],
+					"uvUp":    [ 11, 8, 12, 9 ],
+					"uvDown":  [ 11, 8, 12, 9 ]
+				},
+				{
+					"coordinates": [ 5, 27, -1.1875, 1, 1, 0.25 ],
+					"uvNorth": [ 11, 1, 12, 2 ],
+					"uvEast":  [ 11, 1, 12, 2 ],
+					"uvSouth": [ 11, 1, 12, 2 ],
+					"uvWest":  [ 11, 1, 12, 2 ],
+					"uvUp":    [ 11, 1, 12, 2 ],
+					"uvDown":  [ 11, 1, 12, 2 ]
+				},
+				{
+					"coordinates": [ 4, 28, -1.1875, 1, 1, 0.25 ],
+					"uvNorth": [ 10, 0, 11, 1 ],
+					"uvEast":  [ 10, 0, 11, 1 ],
+					"uvSouth": [ 10, 0, 11, 1 ],
+					"uvWest":  [ 10, 0, 11, 1 ],
+					"uvUp":    [ 10, 0, 11, 1 ],
+					"uvDown":  [ 10, 0, 11, 1 ]
+				}
+			]
+		},
+		{
+			"part": "pages_left",
+			"id": "pages_left",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ -5, 20, -0.001, 5, 8, 1 ], "textureOffset": [ 12, 10 ] }
+			]
+		},
+		{
+			"part": "pages_right",
+			"id": "pages_right",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ -5, 20, -0.999, 5, 8, 1 ], "textureOffset": [ 0, 10 ] }
+			]
+		},
+		{
+			"part": "flipping_page_left",
+			"id": "flipping_page_left",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ -5, 20, 0, 5, 8, 0.005 ], "textureOffset": [ 24, 10 ] }
+			]
+		},
+		{
+			"part": "flipping_page_right",
+			"id": "flipping_page_right",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ -5, 20, 0, 5, 8, 0.005 ], "textureOffset": [ 24, 10 ] }
+			]
+		}
+	]
+}
