@@ -193,5 +193,15 @@
 				"down":  { "uv": [ 13, 0, 16, 16 ], "texture": "#texture", "cullface": "down" }
 			}
 		}
-	]
+	],
+	"display": {
+		"fixed": {
+			"translation": [ 0, 0, 0.05 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"on_shelf": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -0.05 ]
+		}
+	}
 }

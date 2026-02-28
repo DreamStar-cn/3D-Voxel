@@ -1,0 +1,10 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/chiseled_bookshelf",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [ 0, 135, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		}
+	}
+}

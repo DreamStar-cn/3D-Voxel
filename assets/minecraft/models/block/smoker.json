@@ -977,5 +977,15 @@
 				"down":  { "uv": [ 14, 0, 16, 2 ], "texture": "#bottom", "cullface": "down" }
 			}
 		}
-	]
+	],
+	"display": {
+		"fixed": {
+			"translation": [ 0, 0, 0.05 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"on_shelf": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -0.05 ]
+		}
+	}
 }

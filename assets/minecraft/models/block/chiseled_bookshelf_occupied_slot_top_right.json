@@ -1,0 +1,17 @@
+{
+	"author": "Dream Star",
+	"textures": {
+		"particle": "#texture",
+		"texture": "minecraft:block/chiseled_bookshelf_occupied"
+	},
+	"elements": [
+		{
+			"from": [ 1, 9, 0.75 ],
+			"to": [ 5, 15, 5 ],
+			"faces": {
+				"north": { "uv": [ 11, 1, 15, 7 ], "texture": "#texture", "cullface": "north" },
+				"east":  { "uv": [ 11, 1, 12, 7 ], "texture": "#texture", "cullface": "north" }
+			}
+		}
+	]
+}

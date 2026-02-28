@@ -533,5 +533,15 @@
 				"down":  { "uv": [ 0, 12, 16, 4 ], "texture": "#up" }
 			}
 		}
-	]
+	],
+	"display": {
+		"fixed": {
+			"translation": [ 0, 0, 0.05 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"on_shelf": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -0.05 ]
+		}
+	}
 }

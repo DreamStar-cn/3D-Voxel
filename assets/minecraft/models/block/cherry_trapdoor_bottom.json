@@ -174,5 +174,11 @@
 				"down":  { "uv": [ 13, 1, 14, 2 ], "texture": "#texture", "cullface": "down" }
 			}
 		}
-	]
+	],
+	"display": {
+		"on_shelf": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -0.05 ]
+		}
+	}
 }
