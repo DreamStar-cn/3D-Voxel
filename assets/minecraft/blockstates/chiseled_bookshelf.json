@@ -1,4 +1,5 @@
 {
+	"author": "Dream Star",
 	"multipart": [
 		{
 			"apply": { "model": "minecraft:block/chiseled_bookshelf", "uvlock": true },
