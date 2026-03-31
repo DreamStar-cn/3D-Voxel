@@ -1,0 +1,55 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "minecraft:block/pumpkin_top",
+		"side": "minecraft:block/pumpkin_side"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "north" },
+				"east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "south" },
+				"west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+				"up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#end", "cullface": "up" },
+				"down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#end", "cullface": "down" }
+			}
+		},
+		{
+			"from": [ 5, 16, 5 ],
+			"to": [ 7, 16.999, 7 ],
+			"faces": {
+				"north": { "uv": [ 7, 5, 5, 6 ], "texture": "#end", "cullface": "up" },
+				"east":  { "uv": [ 6, 5, 7, 7 ], "rotation": 90, "texture": "#end", "cullface": "up" },
+				"south": { "uv": [ 5, 6, 7, 7 ], "texture": "#end", "cullface": "up" },
+				"west":  { "uv": [ 5, 7, 6, 5 ], "rotation": 90, "texture": "#end", "cullface": "up" },
+				"up":    { "uv": [ 5, 5, 7, 7 ], "texture": "#end", "cullface": "up" }
+			}
+		},
+		{
+			"from": [ 6, 16, 6 ],
+			"to": [ 8, 16.999, 8 ],
+			"faces": {
+				"north": { "uv": [ 8, 6, 6, 7 ], "texture": "#end", "cullface": "up" },
+				"east":  { "uv": [ 7, 6, 8, 8 ], "rotation": 90, "texture": "#end", "cullface": "up" },
+				"south": { "uv": [ 6, 7, 8, 8 ], "texture": "#end", "cullface": "up" },
+				"west":  { "uv": [ 6, 8, 7, 6 ], "rotation": 90, "texture": "#end", "cullface": "up" },
+				"up":    { "uv": [ 6, 6, 8, 8 ], "texture": "#end", "cullface": "up" }
+			}
+		},
+		{
+			"from": [ 7, 16, 7 ],
+			"to": [ 9, 16.999, 9 ],
+			"faces": {
+				"north": { "uv": [ 9, 7, 7, 8 ], "texture": "#end", "cullface": "up" },
+				"east":  { "uv": [ 8, 7, 9, 9 ], "rotation": 90, "texture": "#end", "cullface": "up" },
+				"south": { "uv": [ 7, 8, 9, 9 ], "texture": "#end", "cullface": "up" },
+				"west":  { "uv": [ 7, 9, 8, 7 ], "rotation": 90, "texture": "#end", "cullface": "up" },
+				"up":    { "uv": [ 7, 7, 9, 9 ], "texture": "#end", "cullface": "up" }
+			}
+		}
+	]
+}

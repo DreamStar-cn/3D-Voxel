@@ -1,0 +1,8 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/bamboo_block_x",
+	"textures": {
+		"end": "minecraft:block/stripped_bamboo_block_top",
+		"side": "minecraft:block/stripped_bamboo_block"
+	}
+}
