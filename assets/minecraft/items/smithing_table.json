@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/smithing_table"
+	}
+}
