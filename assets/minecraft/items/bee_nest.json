@@ -1,0 +1,49 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:block_state",
+		"block_state_property": "honey_level",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:block/bee_nest1"
+				},
+				"when": "1"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:block/bee_nest2"
+				},
+				"when": "2"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:block/bee_nest3"
+				},
+				"when": "3"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:block/bee_nest4"
+				},
+				"when": "4"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:block/bee_nest_honey"
+				},
+				"when": "5"
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:block/bee_nest_empty"
+		}
+	}
+}
