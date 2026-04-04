@@ -184,6 +184,26 @@
 					"uvUp":    [ 32, 4, 4, 0 ]
 				}
 			]
+		},
+		{
+			"part": "paddle_left",
+			"id": "paddle_left",
+			"invertAxis": "xy",
+			"translate": [ 3, -28, -9 ],
+			"boxes": [
+				{ "coordinates": [ -4, 26, 4, 2, 2, 18 ], "textureOffset": [ 0, 24 ] },
+				{ "coordinates": [ -2.999, 25, 17, 1, 6, 7 ], "textureOffset": [ 0, 24 ] }
+			]
+		},
+		{
+			"part": "paddle_right",
+			"id": "paddle_right",
+			"invertAxis": "xy",
+			"translate": [ 3, -28, 9 ],
+			"boxes": [
+				{ "coordinates": [ -4, 26, -14, 2, 2, 18 ], "textureOffset": [ 40, 24 ] },
+				{ "coordinates": [ -4.001, 25, -1, 1, 6, 7 ], "textureOffset": [ 40, 24 ] }
+			]
 		}
 	]
 }

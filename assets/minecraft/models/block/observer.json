@@ -489,5 +489,11 @@
 				"down":  { "uv": [ 15, 0, 16, 1 ], "texture": "#top", "cullface": "down" }
 			}
 		}
-	]
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [ 0, 135, 0 ],
+			"scale": [ 0.40, 0.40, 0.40 ]
+		}
+	}
 }

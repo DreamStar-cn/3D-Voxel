@@ -1,0 +1,18 @@
+{
+	"author": "Dream Star",
+	"textureSize": [ 64, 64 ],
+	"models": [
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"model": "shulker_lid.jpm"
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"model": "shulker_base.jpm"
+		}
+	]
+}
