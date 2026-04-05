@@ -1,8 +1,11 @@
 {
 	"author": "Dream Star",
-	"parent": "minecraft:block/block",
+	"parent": "minecraft:item/minecart",
 	"textures": {
-		"minecart": "minecraft:entity/minecart"
+		"minecart": "minecraft:entity/minecart/minecart",
+		"back": "minecraft:block/command_block_back",
+		"front": "minecraft:block/command_block_front",
+		"side": "minecraft:block/command_block_side"
 	},
 	"elements": [
 		{
@@ -68,31 +71,23 @@
 				"up":    { "uv": [ 5.5, 6, 0.5, 5 ], "texture": "#minecart" },
 				"down":  { "uv": [ 10.5, 5, 5.5, 6 ], "texture": "#minecart" }
 			}
+		},
+		{
+			"from": [ 2, 4.5, 3 ],
+			"to": [ 14, 16.5, 15 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#front" },
+				"east":  { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#side" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#back" },
+				"west":  { "uv": [ 0, 0, 16, 16 ], "rotation": 270, "texture": "#side" },
+				"up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#side" },
+				"down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#side" }
+			}
 		}
 	],
 	"display": {
-		"gui": {
-			"rotation": [ 30, 135, 0 ],
-			"translation": [ -0.3928, 0, 0 ],
-			"scale": [ 0.5556, 0.5556, 0.5556 ]
-		},
 		"head": {
-			"translation": [ 0, 1, -1 ],
-			"rotation": [ 0, 0, 180 ]
-		},
-		"fixed": {
-			"rotation": [ 0, -90, 0 ],
-			"translation": [ 0.5, 0, 0 ],
-			"scale": [ 0.5, 0.5, 0.5 ]
-		},
-		"on_shelf": {
-			"rotation": [ 0, 90, 0 ],
-			"translation": [ -0.8, 0, 0 ],
-			"scale": [ 0.8, 0.8, 0.8 ]
-		},
-		"firstperson_lefthand": {
-			"rotation": [ 0, 45, 0 ],
-			"scale": [ 0.4, 0.4, 0.4 ]
+			"translation": [ 0, 12, -1 ]
 		}
 	}
 }

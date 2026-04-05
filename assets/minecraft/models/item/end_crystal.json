@@ -2,7 +2,7 @@
 	"author": "Dream Star",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"end_crystal": "minecraft:item/end_crystal/end_crystal"
+		"end_crystal": "minecraft:entity/end_crystal/end_crystal"
 	},
 	"elements": [
 		{

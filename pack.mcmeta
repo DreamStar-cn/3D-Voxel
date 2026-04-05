@@ -1,8 +1,17 @@
 {
 	"author": "Dream Star",
 	"pack": {
-		"description": "§fBy Dream Star\n§cAlpha",
+		"description": "§fBy Dream Star\n§cAlpha 1.21.11 ~ 26.1.1",
 		"min_format": [ 75, 0 ],
-		"max_format": [ 75, 0 ]
+		"max_format": [ 84, 0 ]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "26.1",
+				"min_format": [ 77, 0 ],
+				"max_format": [ 84, 0 ]
+			}
+		]
 	}
 }

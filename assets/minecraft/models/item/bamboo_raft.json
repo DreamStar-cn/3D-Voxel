@@ -2,7 +2,7 @@
 	"author": "Dream Star",
 	"parent": "minecraft:item/boat",
 	"textures": {
-		"boat": "minecraft:item/boat/bamboo"
+		"boat": "minecraft:entity/boat/bamboo"
 	},
 	"elements": [
 		{

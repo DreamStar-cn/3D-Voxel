@@ -2,6 +2,6 @@
 	"author": "Dream Star",
 	"parent": "minecraft:item/chest_boat",
 	"textures": {
-		"chest_boat": "minecraft:item/chest_boat/oak"
+		"chest_boat": "minecraft:entity/chest_boat/oak"
 	}
 }

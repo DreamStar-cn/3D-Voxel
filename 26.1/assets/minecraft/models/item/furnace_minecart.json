@@ -2,7 +2,7 @@
 	"author": "Dream Star",
 	"parent": "minecraft:item/minecart",
 	"textures": {
-		"minecart": "minecraft:entity/minecart",
+		"minecart": "minecraft:entity/minecart/minecart",
 		"front": "minecraft:block/furnace_front",
 		"side":  "minecraft:block/furnace_side",
 		"top":  "minecraft:block/furnace_top"

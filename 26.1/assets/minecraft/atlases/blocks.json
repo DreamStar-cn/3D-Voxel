@@ -1,0 +1,31 @@
+{
+	"author": "Dream Star",
+	"sources": [
+		{
+			"type": "minecraft:directory",
+			"prefix": "block/",
+			"source": "block"
+		},
+		{
+			"type": "minecraft:directory",
+			"prefix": "entity/conduit/",
+			"source": "entity/conduit"
+		},
+		{
+			"type": "minecraft:single",
+			"resource": "minecraft:entity/bell/bell_body"
+		},
+		{
+			"type": "minecraft:single",
+			"resource": "minecraft:entity/enchanting_table_book"
+		},
+		{
+			"type": "minecraft:single",
+			"resource": "minecraft:entity/chest/normal"
+		},
+		{
+			"type": "minecraft:single",
+			"resource": "minecraft:entity/minecart/minecart"
+		}
+	]
+}

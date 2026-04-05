@@ -2,7 +2,7 @@
 	"author": "Dream Star",
 	"gui_light": "front",
 	"textures": {
-		"wind_charge": "minecraft:item/projectiles/wind_charge"
+		"wind_charge": "minecraft:entity/projectiles/wind_charge"
 	},
 	"elements": [
 		{
