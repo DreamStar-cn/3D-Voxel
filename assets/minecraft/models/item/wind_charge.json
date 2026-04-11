@@ -8,27 +8,25 @@
 		{
 			"from": [ 6, 6, 6 ],
 			"to": [ 10, 10, 10 ],
-			"rotation": { "angle": 180, "axis": "x", "origin": [ 8, 8, 8 ] },
 			"faces": {
-				"north": { "uv": [ 1, 2, 2, 4 ], "texture": "#wind_charge" },
-				"east":  { "uv": [ 0, 2, 1, 4 ], "texture": "#wind_charge" },
-				"south": { "uv": [ 3, 2, 4, 4 ], "texture": "#wind_charge" },
-				"west":  { "uv": [ 2, 2, 3, 4 ], "texture": "#wind_charge" },
-				"up":    { "uv": [ 2, 2, 1, 0 ], "texture": "#wind_charge" },
-				"down":  { "uv": [ 3, 0, 2, 2 ], "texture": "#wind_charge" }
+				"north": { "uv": [ 3, 2, 4, 4 ], "rotation": 180, "texture": "#wind_charge" },
+				"east":  { "uv": [ 0, 2, 1, 4 ], "rotation": 180, "texture": "#wind_charge" },
+				"south": { "uv": [ 1, 2, 2, 4 ], "rotation": 180, "texture": "#wind_charge" },
+				"west":  { "uv": [ 2, 2, 3, 4 ], "rotation": 180, "texture": "#wind_charge" },
+				"up":    { "uv": [ 3, 0, 2, 2 ], "texture": "#wind_charge" },
+				"down":  { "uv": [ 2, 2, 1, 0 ], "texture": "#wind_charge" }
 			}
 		},
 		{
 			"from": [ 6, 10, 6 ],
 			"to": [ 10, 6, 10 ],
-			"rotation": { "angle": 180, "axis": "x", "origin": [ 8, 8, 8 ] },
 			"faces": {
-				"north": { "uv": [ 1, 4, 2, 2 ], "texture": "#wind_charge" },
-				"east":  { "uv": [ 0, 4, 1, 2 ], "texture": "#wind_charge" },
-				"south": { "uv": [ 3, 4, 4, 2 ], "texture": "#wind_charge" },
-				"west":  { "uv": [ 2, 4, 3, 2 ], "texture": "#wind_charge" },
-				"up":    { "uv": [ 3, 2, 2, 0 ], "texture": "#wind_charge" },
-				"down":  { "uv": [ 2, 0, 1, 2 ], "texture": "#wind_charge" }
+				"north": { "uv": [ 3, 4, 4, 2 ], "rotation": 180, "texture": "#wind_charge" },
+				"east":  { "uv": [ 0, 4, 1, 2 ], "rotation": 180, "texture": "#wind_charge" },
+				"south": { "uv": [ 1, 4, 2, 2 ], "rotation": 180, "texture": "#wind_charge" },
+				"west":  { "uv": [ 2, 4, 3, 2 ], "rotation": 180, "texture": "#wind_charge" },
+				"up":    { "uv": [ 2, 0, 1, 2 ], "texture": "#wind_charge" },
+				"down":  { "uv": [ 3, 2, 2, 0 ], "texture": "#wind_charge" }
 			}
 		},
 		{

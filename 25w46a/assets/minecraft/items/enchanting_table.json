@@ -1,0 +1,25 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/enchanting_table"
+				},
+				"when": [
+					"gui",
+					"ground",
+					"thirdperson_righthand",
+					"thirdperson_lefthand"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/enchanting_table_in_hand"
+		}
+	}
+}
