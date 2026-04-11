@@ -1,31 +1,41 @@
 {
 	"author": "Dream Star",
 	"pack": {
-		"description": "§fBy Dream Star\n§cAlpha 1.21.6 ~ 26.1.1",
+		"description": "§fBy Dream Star\n§cAlpha 1.21.5 ~ 26.1.2",
 		"pack_format": 84,
-		"supported_formats": [ 63, 84 ],
-		"min_format": [ 63, 0 ],
+		"supported_formats": [ 55, 84 ],
+		"min_format": [ 55, 0 ],
 		"max_format": [ 84, 0 ]
 	},
 	"overlays": {
 		"entries": [
 			{
+				"directory": "25w16a",
+				"formats": [ 57, 64 ],
+				"min_format": [ 57, 0 ],
+				"max_format": [ 84, 0 ]
+			},
+			{
 				"directory": "25w45a",
+				"formats": [ 73, 84 ],
 				"min_format": [ 73, 0 ],
 				"max_format": [ 84, 0 ]
 			},
 			{
 				"directory": "25w46a",
+				"formats": [ 74, 84 ],
 				"min_format": [ 74, 0 ],
 				"max_format": [ 84, 0 ]
 			},
 			{
 				"directory": "26.1-snapshot-2",
+				"formats": [ 77, 84 ],
 				"min_format": [ 77, 0 ],
 				"max_format": [ 84, 0 ]
 			},
 			{
 				"directory": "26.1-snapshot-7",
+				"formats": [ 81, 84 ],
 				"min_format": [ 81, 0 ],
 				"max_format": [ 84, 0 ]
 			}
