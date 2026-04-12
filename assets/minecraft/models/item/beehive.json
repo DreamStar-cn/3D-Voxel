@@ -1,0 +1,14 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/beehive_empty",
+	"overrides" : [
+		{
+			"predicate" : { "honey_level" : 0 },
+			"model" : "minecraft:block/beehive_empty"
+		},
+		{
+			"predicate" : { "honey_level" : 1 },
+			"model" : "minecraft:block/beehive_honey"
+		}
+	]
+}

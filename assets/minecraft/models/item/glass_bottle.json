@@ -1,6 +1,6 @@
 {
 	"author": "Dream Star",
-	"parent": "minecraft:item/generated",
+	"parent": "minecraft:item/display_item",
 	"textures": {
 		"layer0": "minecraft:item/glass_bottle"
 	},

@@ -1,6 +1,6 @@
 {
 	"author": "Dream Star",
-	"parent": "minecraft:item/generated",
+	"parent": "minecraft:item/display_item",
 	"textures": {
 		"rail": "minecraft:block/powered_rail",
 		"tie": "minecraft:block/special_tie"
