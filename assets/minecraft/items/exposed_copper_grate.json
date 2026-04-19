@@ -1,0 +1,22 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/exposed_copper_grate_in_gui"
+				},
+				"when": [
+					"gui"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:block/exposed_copper_grate"
+		}
+	}
+}

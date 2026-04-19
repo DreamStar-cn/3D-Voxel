@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/copper_grate_in_gui",
+	"textures": {
+		"all": "minecraft:block/exposed_copper_grate"
+	}
+}
