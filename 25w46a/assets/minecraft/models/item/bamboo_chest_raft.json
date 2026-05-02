@@ -314,8 +314,8 @@
 				"east":  { "uv": [ 0, 3.875, 0.875, 4.625 ], "texture": "#chest_boat" },
 				"south": { "uv": [ 1.875, 3.875, 2, 4.625 ], "texture": "#chest_boat" },
 				"west":  { "uv": [ 1, 3.875, 1.875, 4.625 ], "texture": "#chest_boat" },
-				"up":    { "uv": [ 1, 3.875, 0.875, 3 ], "texture": "#chest_boat" },
-				"down":  { "uv": [ 1.125, 3, 1, 3.875 ], "texture": "#chest_boat" }
+				"up":    { "uv": [ 0.875, 3.875, 1, 3 ], "texture": "#chest_boat" },
+				"down":  { "uv": [ 1, 3, 1.125, 3.875 ], "texture": "#chest_boat" }
 			}
 		},
 		{
@@ -340,8 +340,8 @@
 				"east":  { "uv": [ 5, 3.875, 5.875, 4.625 ], "texture": "#chest_boat" },
 				"south": { "uv": [ 6.875, 3.875, 7, 4.625 ], "texture": "#chest_boat" },
 				"west":  { "uv": [ 6, 3.875, 6.875, 4.625 ], "texture": "#chest_boat" },
-				"up":    { "uv": [ 6, 3.875, 5.875, 3 ], "texture": "#chest_boat" },
-				"down":  { "uv": [ 6.125, 3, 6, 3.875 ], "texture": "#chest_boat" }
+				"up":    { "uv": [ 5.875, 3.875, 6, 3 ], "texture": "#chest_boat" },
+				"down":  { "uv": [ 6, 3, 6.125, 3.875 ], "texture": "#chest_boat" }
 			}
 		},
 		{
@@ -352,7 +352,6 @@
 				"east":  { "uv": [ 0, 11, 1.5, 12 ], "texture": "#chest_boat" },
 				"south": { "uv": [ 4.5, 11, 6, 12 ], "texture": "#chest_boat" },
 				"west":  { "uv": [ 3, 11, 4.5, 12 ], "texture": "#chest_boat" },
-				"up":    { "uv": [ 3, 11, 1.5, 9.5 ], "texture": "#chest_boat" },
 				"down":  { "uv": [ 4.5, 9.5, 3, 11 ], "texture": "#chest_boat" }
 			}
 		},
@@ -364,8 +363,7 @@
 				"east":  { "uv": [ 0, 8.875, 1.5, 9.5 ], "texture": "#chest_boat" },
 				"south": { "uv": [ 4.5, 8.875, 6, 9.5 ], "texture": "#chest_boat" },
 				"west":  { "uv": [ 3, 8.875, 4.5, 9.5 ], "texture": "#chest_boat" },
-				"up":    { "uv": [ 3, 8.875, 1.5, 7.375 ], "texture": "#chest_boat" },
-				"down":  { "uv": [ 4.5, 7.375, 3, 8.875 ], "texture": "#chest_boat" }
+				"up":    { "uv": [ 3, 8.875, 1.5, 7.375 ], "texture": "#chest_boat" }
 			}
 		},
 		{
@@ -374,7 +372,6 @@
 			"faces": {
 				"north": { "uv": [ 0.125, 7.5, 0.375, 8 ], "texture": "#chest_boat" },
 				"east":  { "uv": [ 0, 7.5, 0.125, 8 ], "texture": "#chest_boat" },
-				"south": { "uv": [ 0.5, 7.5, 0.75, 8 ], "texture": "#chest_boat" },
 				"west":  { "uv": [ 0.375, 7.5, 0.5, 8 ], "texture": "#chest_boat" },
 				"up":    { "uv": [ 0.375, 7.5, 0.125, 7.375 ], "texture": "#chest_boat" },
 				"down":  { "uv": [ 0.625, 7.375, 0.375, 7.5 ], "texture": "#chest_boat" }

@@ -314,8 +314,8 @@
 				"east":  { "uv": [ 0, 7.75, 0.875, 9.25 ], "texture": "#boat" },
 				"south": { "uv": [ 1.875, 7.75, 2, 9.25 ], "texture": "#boat" },
 				"west":  { "uv": [ 1, 7.75, 1.875, 9.25 ], "texture": "#boat" },
-				"up":    { "uv": [ 1, 7.75, 0.875, 6 ], "texture": "#boat" },
-				"down":  { "uv": [ 1.125, 6, 1, 7.75 ], "texture": "#boat" }
+				"up":    { "uv": [ 0.875, 7.75, 1, 6 ], "texture": "#boat" },
+				"down":  { "uv": [ 1, 6, 1.125, 7.75 ], "texture": "#boat" }
 			}
 		},
 		{
@@ -340,8 +340,8 @@
 				"east":  { "uv": [ 5, 7.75, 5.875, 9.25 ], "texture": "#boat" },
 				"south": { "uv": [ 6.875, 7.75, 7, 9.25 ], "texture": "#boat" },
 				"west":  { "uv": [ 6, 7.75, 6.875, 9.25 ], "texture": "#boat" },
-				"up":    { "uv": [ 6, 7.75, 5.875, 6 ], "texture": "#boat" },
-				"down":  { "uv": [ 6.125, 6, 6, 7.75 ], "texture": "#boat" }
+				"up":    { "uv": [ 5.875, 7.75, 6, 6 ], "texture": "#boat" },
+				"down":  { "uv": [ 6, 6, 6.125, 7.75 ], "texture": "#boat" }
 			}
 		}
 	]
