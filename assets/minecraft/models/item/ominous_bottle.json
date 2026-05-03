@@ -729,7 +729,7 @@
 				"east":  { "uv": [ 7, 8, 9, 9 ], "texture": "#layer0" },
 				"south": { "uv": [ 6, 8, 10, 9 ], "texture": "#layer0" },
 				"west":  { "uv": [ 7, 8, 9, 9 ], "texture": "#layer0" },
-				"up":    { "uv": [ 7, 8, 8, 9 ], "rotation": 90, "texture": "#layer0" }
+				"up":    { "uv": [ 7, 8, 8, 9 ], "texture": "#layer0" }
 			}
 		},
 		{

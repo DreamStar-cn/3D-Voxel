@@ -10,6 +10,12 @@
 	"overlays": {
 		"entries": [
 			{
+				"directory": "24w33a",
+				"formats": [ 35, 64 ],
+				"min_format": [ 35, 0 ],
+				"max_format": [ 84, 0 ]
+			},
+			{
 				"directory": "25w16a",
 				"formats": [ 57, 64 ],
 				"min_format": [ 57, 0 ],
