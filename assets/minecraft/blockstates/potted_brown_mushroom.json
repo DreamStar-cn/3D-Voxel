@@ -1,0 +1,11 @@
+{
+	"author": "Dream Star",
+	"multipart": [
+		{
+			"apply": { "model": "minecraft:block/flower_pot" }
+		},
+		{
+			"apply": { "model": "minecraft:block/potted_brown_mushroom" }
+		}
+	]
+}

@@ -108,7 +108,7 @@
 			"faces": {
 				"north": { "uv": [ 9, 6, 10, 7 ], "texture": "#north" },
 				"west":  { "uv": [ 9, 6, 10, 7 ], "texture": "#north" },
-				"up":    { "uv": [ 10, 6, 9, 7 ], "texture": "#north" },
+				"up":    { "uv": [ 9, 6, 10, 7 ], "texture": "#north" },
 				"down":  { "uv": [ 9, 6, 10, 7 ], "texture": "#north" }
 			}
 		},
