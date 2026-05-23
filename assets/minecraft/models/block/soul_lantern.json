@@ -1,8 +1,8 @@
 {
 	"author": "Dream Star",
-	"parent": "minecraft:block/block",
+	"parent": "minecraft:block/template_lantern",
 	"textures": {
-		"particle": "#lantern"
+		"lantern": "minecraft:block/soul_lantern"
 	},
 	"elements": [
 		{
@@ -35,7 +35,7 @@
 		{
 			"from": [ 5.001, 1, 5.001 ],
 			"to": [ 10.999, 6, 10.999 ],
-			"light_emission": 15,
+			"light_emission": 10,
 			"faces": {
 				"north": { "uv": [ 0, 3, 6, 8 ], "texture": "#lantern" },
 				"east":  { "uv": [ 0, 3, 6, 8 ], "texture": "#lantern" },
@@ -103,44 +103,5 @@
 				"down":  { "uv": [ 12, 10, 13, 11 ], "texture": "#lantern" }
 			}
 		}
-	],
-	"display": {
-		"gui": {
-			"rotation": [ 30, 225, 0 ],
-			"translation": [ 0, 1.1839, 0 ]
-		},
-		"ground": {
-			"translation": [ 0, 2, 0 ],
-			"scale": [ 0.5, 0.5, 0.5 ]
-		},
-		"head": {
-			"rotation": [ 0, 180, 0 ],
-			"translation": [ 0, 13, 7 ]
-		},
-		"fixed": {
-			"translation": [ 0, 2.5, 0 ]
-		},
-		"on_shelf": {
-			"rotation": [ 0, 180, 0 ],
-			"scale": [ 2, 2, 2 ]
-		},
-		"thirdperson_righthand": {
-			"rotation": [ 75, -45, 0 ],
-			"scale": [ 0.55, 0.55, 0.55 ]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [ 75, 45, 0 ],
-			"scale": [ 0.55, 0.55, 0.55 ]
-		},
-		"firstperson_righthand": {
-			"rotation": [ 0, -45, 0 ],
-			"translation": [ 0, 3.2, 0 ],
-			"scale": [ 0.68, 0.68, 0.68 ]
-		},
-		"firstperson_lefthand": {
-			"rotation": [ 0, 45, 0 ],
-			"translation": [ 0, 3.2, 0 ],
-			"scale": [ 0.68, 0.68, 0.68 ]
-		}
-	}
+	]
 }

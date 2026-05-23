@@ -1,0 +1,8 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/ochre_froglight",
+	"textures": {
+		"end": "minecraft:block/verdant_froglight_top",
+		"side": "minecraft:block/verdant_froglight_side"
+	}
+}
