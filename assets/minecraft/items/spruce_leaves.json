@@ -1,0 +1,28 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/spruce_leaves_in_gui",
+					"tints": [
+						{ "type": "minecraft:constant", "value": -10380959 }
+					]
+				},
+				"when": [
+					"gui"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:block/spruce_leaves",
+			"tints": [
+				{ "type": "minecraft:constant", "value": -10380959 }
+			]
+		}
+	}
+}

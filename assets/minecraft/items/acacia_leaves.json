@@ -1,0 +1,28 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/acacia_leaves_in_gui",
+					"tints": [
+						{ "type": "minecraft:constant", "value": -12012264 }
+					]
+				},
+				"when": [
+					"gui"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:block/acacia_leaves",
+			"tints": [
+				{ "type": "minecraft:constant", "value": -12012264 }
+			]
+		}
+	}
+}

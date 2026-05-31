@@ -40,8 +40,8 @@
 			}
 		},
 		{
-			"from": [ 1, 1, 8 ],
-			"to": [ 15, 15, 8 ],
+			"from": [ 0.995, 1, 7.995 ],
+			"to": [ 15.005, 15, 8.005 ],
 			"rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ], "rescale": true },
 			"faces": {
 				"north": { "uv": [ 1, 1, 15, 15 ], "texture": "#end" },
@@ -49,8 +49,8 @@
 			}
 		},
 		{
-			"from": [ 1, 1, 8 ],
-			"to": [ 15, 15, 8 ],
+			"from": [ 0.995, 1, 7.995 ],
+			"to": [ 15.005, 15, 8.005 ],
 			"rotation": { "angle": -45, "axis": "y", "origin": [ 8, 8, 8 ], "rescale": true },
 			"faces": {
 				"north": { "uv": [ 1, 1, 15, 15 ], "texture": "#end" },
