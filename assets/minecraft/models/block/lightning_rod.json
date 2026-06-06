@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/template_lightning_rod",
+	"textures": {
+		"texture": "minecraft:block/lightning_rod"
+	}
+}

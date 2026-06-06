@@ -39,6 +39,10 @@
 			"translation": [ 0, 2.3148, 0 ],
 			"scale": [ 1.3333, 1.3333, 1.3333 ]
 		},
+		"ground": {
+			"translation": [ 0, 3, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
 		"head": {
 			"rotation": [ 0, 180, 0 ],
 			"translation": [ 0, 13, 0 ]

@@ -1,6 +1,6 @@
 {
 	"author": "Dream Star",
-	"parent": "minecraft:item/minecart",
+	"parent": "minecraft:item/chest_minecart",
 	"textures": {
 		"minecart": "minecraft:entity/minecart/minecart",
 		"back": "minecraft:block/command_block_back",
@@ -9,8 +9,8 @@
 	},
 	"elements": [
 		{
-			"from": [ 0, 3, -1 ],
-			"to": [ 16, 11, 1 ],
+			"from": [ 0, 3, -2 ],
+			"to": [ 16, 11, 0 ],
 			"faces": {
 				"north": { "uv": [ 5, 1, 9, 5 ], "texture": "#minecart" },
 				"east":  { "uv": [ 4.5, 1, 5, 5 ], "texture": "#minecart" },
@@ -20,8 +20,8 @@
 			}
 		},
 		{
-			"from": [ 14, 3, 1 ],
-			"to": [ 16, 11, 17 ],
+			"from": [ 14, 3, 0 ],
+			"to": [ 16, 11, 16 ],
 			"faces": {
 				"east":  { "uv": [ 5, 1, 9, 5 ], "texture": "#minecart" },
 				"west":  { "uv": [ 0.5, 1, 4.5, 5 ], "texture": "#minecart" },
@@ -29,8 +29,8 @@
 			}
 		},
 		{
-			"from": [ 0, 3, 1 ],
-			"to": [ 2, 11, 17 ],
+			"from": [ 0, 3, 0 ],
+			"to": [ 2, 11, 16 ],
 			"faces": {
 				"east":  { "uv": [ 0.5, 1, 4.5, 5 ], "texture": "#minecart" },
 				"west":  { "uv": [ 5, 1, 9, 5 ], "texture": "#minecart" },
@@ -38,8 +38,8 @@
 			}
 		},
 		{
-			"from": [ 0, 3, 17 ],
-			"to": [ 16, 11, 19 ],
+			"from": [ 0, 3, 16 ],
+			"to": [ 16, 11, 18 ],
 			"faces": {
 				"north": { "uv": [ 0.5, 1, 4.5, 5 ], "texture": "#minecart" },
 				"east":  { "uv": [ 0, 1, 0.5, 5 ], "texture": "#minecart" },
@@ -49,8 +49,8 @@
 			}
 		},
 		{
-			"from": [ 0, 1, -1 ],
-			"to": [ 16, 3, 19 ],
+			"from": [ 0, 1, -2 ],
+			"to": [ 16, 3, 18 ],
 			"faces": {
 				"north": { "uv": [ 0, 6, 0.5, 14 ], "rotation": 90, "texture": "#minecart" },
 				"east":  { "uv": [ 10.5, 5, 5.5, 6 ], "texture": "#minecart" },
@@ -61,8 +61,8 @@
 			}
 		},
 		{
-			"from": [ 2, 4.5, 3 ],
-			"to": [ 14, 16.5, 15 ],
+			"from": [ 2, 4.5, 2 ],
+			"to": [ 14, 16.5, 14 ],
 			"faces": {
 				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#front" },
 				"east":  { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#side" },
@@ -72,10 +72,5 @@
 				"down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#side" }
 			}
 		}
-	],
-	"display": {
-		"head": {
-			"translation": [ 0, 12, -1 ]
-		}
-	}
+	]
 }

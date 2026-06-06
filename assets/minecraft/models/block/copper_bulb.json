@@ -865,11 +865,5 @@
 				"down":  { "uv": [ 15, 0, 16, 1 ], "texture": "#all", "cullface": "down" }
 			}
 		}
-	],
-	"display": {
-		"on_shelf": {
-			"rotation": [ 0, 180, 0 ],
-			"translation": [ 0, 0, -0.05 ]
-		}
-	}
+	]
 }

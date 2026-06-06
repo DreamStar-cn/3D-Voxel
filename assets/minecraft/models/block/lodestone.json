@@ -1576,11 +1576,5 @@
 				"down":  { "uv": [ 15, 0, 16, 1 ], "texture": "#end", "cullface": "down" }
 			}
 		}
-	],
-	"display": {
-		"fixed": {
-			"translation": [ 0, 0, 0.05 ],
-			"scale": [ 0.5, 0.5, 0.5 ]
-		}
-	}
+	]
 }

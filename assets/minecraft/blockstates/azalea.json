@@ -1,0 +1,11 @@
+{
+	"author": "Dream Star",
+	"variants": {
+		"": [
+			{ "model": "minecraft:block/azalea" },
+			{ "model": "minecraft:block/azalea", "y": 90 },
+			{ "model": "minecraft:block/azalea", "y": 180 },
+			{ "model": "minecraft:block/azalea", "y": 270 }
+		]
+	}
+}

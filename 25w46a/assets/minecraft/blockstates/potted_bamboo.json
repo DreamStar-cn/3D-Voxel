@@ -1,0 +1,28 @@
+{
+	"author": "Dream Star",
+	"multipart": [
+		{
+			"apply": { "model": "minecraft:block/flower_pot" }
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/potted_bamboo" },
+				{ "model": "minecraft:block/potted_bamboo1" },
+				{ "model": "minecraft:block/potted_bamboo2" },
+				{ "model": "minecraft:block/potted_bamboo3" },
+				{ "model": "minecraft:block/potted_bamboo", "y": 90 },
+				{ "model": "minecraft:block/potted_bamboo1", "y": 90 },
+				{ "model": "minecraft:block/potted_bamboo2", "y": 90 },
+				{ "model": "minecraft:block/potted_bamboo3", "y": 90 },
+				{ "model": "minecraft:block/potted_bamboo", "y": 180 },
+				{ "model": "minecraft:block/potted_bamboo1", "y": 180 },
+				{ "model": "minecraft:block/potted_bamboo2", "y": 180 },
+				{ "model": "minecraft:block/potted_bamboo3", "y": 180 },
+				{ "model": "minecraft:block/potted_bamboo", "y": 270 },
+				{ "model": "minecraft:block/potted_bamboo1", "y": 270 },
+				{ "model": "minecraft:block/potted_bamboo2", "y": 270 },
+				{ "model": "minecraft:block/potted_bamboo3", "y": 270 }
+			]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"author": "Dream Star",
+	"multipart": [
+		{
+			"apply": { "model": "minecraft:block/flower_pot" }
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/potted_bamboo" },
+				{ "model": "minecraft:block/potted_bamboo", "y": 90 },
+				{ "model": "minecraft:block/potted_bamboo", "y": 180 },
+				{ "model": "minecraft:block/potted_bamboo", "y": 270 }
+			]
+		}
+	]
+}

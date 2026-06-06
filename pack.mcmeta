@@ -22,12 +22,6 @@
 				"max_format": [ 88, 0 ]
 			},
 			{
-				"directory": "25w35a",
-				"formats": [ 67, 88 ],
-				"min_format": [ 67, 0 ],
-				"max_format": [ 88, 0 ]
-			},
-			{
 				"directory": "25w45a",
 				"formats": [ 73, 88 ],
 				"min_format": [ 73, 0 ],
