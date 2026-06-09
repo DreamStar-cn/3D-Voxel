@@ -84,8 +84,9 @@
 			"resource": "minecraft:entity/minecart"
 		},
 		{
-			"type": "minecraft:single",
-			"resource": "minecraft:entity/projectiles/wind_charge"
+			"type": "minecraft:directory",
+			"prefix": "entity/projectiles/",
+			"source": "entity/projectiles"
 		}
 	]
 }

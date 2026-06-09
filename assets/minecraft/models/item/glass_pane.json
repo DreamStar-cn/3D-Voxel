@@ -2,7 +2,7 @@
 	"author": "Dream Star",
 	"parent": "minecraft:item/template_glass_pane",
 	"textures": {
-		"edge": { "force_translucent": true, "sprite": "minecraft:block/glass_pane_top" },
-		"pane": { "force_translucent": true, "sprite": "minecraft:block/glass" }
+		"edge": "minecraft:block/glass_pane_top",
+		"pane": "minecraft:block/glass"
 	}
 }

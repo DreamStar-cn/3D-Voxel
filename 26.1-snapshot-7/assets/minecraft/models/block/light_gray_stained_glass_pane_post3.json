@@ -1,0 +1,9 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/template_glass_pane_post3",
+	"textures": {
+		"edge": { "force_translucent": true, "sprite": "minecraft:block/light_gray_stained_glass_pane_top" },
+		"pane": { "force_translucent": true, "sprite": "minecraft:block/light_gray_stained_glass" },
+		"pane1": { "force_translucent": true, "sprite": "minecraft:block/light_gray_stained_glass1" }
+	}
+}

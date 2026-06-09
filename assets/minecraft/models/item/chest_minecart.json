@@ -1,6 +1,6 @@
 {
 	"author": "Dream Star",
-	"parent": "minecraft:item/chest_minecart",
+	"parent": "minecraft:item/minecart",
 	"textures": {
 		"minecart": "minecraft:entity/minecart",
 		"chest": "minecraft:entity/chest/normal"

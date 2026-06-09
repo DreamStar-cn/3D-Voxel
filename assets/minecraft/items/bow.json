@@ -1,0 +1,111 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:using_item",
+		"on_false": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/bow"
+		},
+		"on_true": {
+			"type": "minecraft:range_dispatch",
+			"property": "minecraft:use_duration",
+			"scale": 0.05,
+			"entries": [
+				{
+					"model": {
+						"type": "minecraft:select",
+						"property": "minecraft:display_context",
+						"cases": [
+							{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow_pulling_1"
+								},
+								"when": [
+									"gui"
+								]
+							},
+							{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow_pulling_1_in_lefthand"
+								},
+								"when": [
+									"thirdperson_lefthand",
+									"firstperson_lefthand"
+								]
+							}
+						],
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/bow_pulling_1_in_righthand"
+						}
+					},
+					"threshold": 0.65
+				},
+				{
+					"model": {
+						"type": "minecraft:select",
+						"property": "minecraft:display_context",
+						"cases": [
+							{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow_pulling_2"
+								},
+								"when": [
+									"gui"
+								]
+							},
+							{
+								"model": {
+									"type": "minecraft:model",
+									"model": "minecraft:item/bow_pulling_2_in_lefthand"
+								},
+								"when": [
+									"thirdperson_lefthand",
+									"firstperson_lefthand"
+								]
+							}
+						],
+						"fallback": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/bow_pulling_2_in_righthand"
+						}
+					},
+					"threshold": 0.9
+				}
+			],
+			"fallback": {
+				"type": "minecraft:select",
+				"property": "minecraft:display_context",
+				"cases": [
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/bow_pulling_0"
+						},
+						"when": [
+							"gui"
+						]
+					},
+					{
+						"model": {
+							"type": "minecraft:model",
+							"model": "minecraft:item/bow_pulling_0_in_lefthand"
+						},
+						"when": [
+							"thirdperson_lefthand",
+							"firstperson_lefthand"
+						]
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/bow_pulling_0_in_righthand"
+				}
+			}
+		}
+	}
+}
