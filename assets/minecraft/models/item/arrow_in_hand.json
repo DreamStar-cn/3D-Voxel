@@ -1,0 +1,41 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/display_item",
+	"textures": {
+		"arrow": "minecraft:entity/projectiles/arrow"
+	},
+	"elements": [
+		{
+			"from": [ 6, 1, 6 ],
+			"to": [ 10, 1, 10 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"up":    { "uv": [ 5, 5, 2.5, 2.5 ], "texture": "#arrow" },
+				"down":  { "uv": [ 0, 2.5, 2.5, 5 ], "texture": "#arrow" }
+			}
+		},
+		{
+			"from": [ 8, 0, 6 ],
+			"to": [ 8, 16, 10 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"east":  { "uv": [ 8, 2.5, 0, 0 ], "rotation": 90, "texture": "#arrow" },
+				"west":  { "uv": [ 8, 0, 16, 2.5 ], "rotation": 90, "texture": "#arrow" }
+			}
+		},
+		{
+			"from": [ 6, 0, 8 ],
+			"to": [ 10, 16, 8 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+			"faces": {
+				"north": { "uv": [ 8, 2.5, 0, 0 ], "rotation": 90, "texture": "#arrow" },
+				"south": { "uv": [ 8, 0, 16, 2.5 ], "rotation": 90, "texture": "#arrow" }
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [ 0, 180, -45 ]
+		}
+	}
+}

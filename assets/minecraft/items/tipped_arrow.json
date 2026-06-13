@@ -7,7 +7,10 @@
 			{
 				"model": {
 					"type": "minecraft:model",
-					"model": "minecraft:item/fletching_table_in_gui"
+					"model": "minecraft:item/tipped_arrow",
+					"tints": [
+						{ "type": "minecraft:potion", "default": -13083194 }
+					]
 				},
 				"when": [
 					"gui"
@@ -16,7 +19,10 @@
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "minecraft:item/fletching_table"
+			"model": "minecraft:item/tipped_arrow_in_hand",
+			"tints": [
+				{ "type": "minecraft:potion", "default": -13083194 }
+			]
 		}
 	}
 }

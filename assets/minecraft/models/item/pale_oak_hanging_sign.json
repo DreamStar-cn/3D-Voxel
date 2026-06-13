@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/template_hanging_sign",
+	"textures": {
+		"all": "minecraft:entity/signs/hanging/pale_oak"
+	}
+}

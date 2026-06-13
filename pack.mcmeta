@@ -44,6 +44,12 @@
 				"formats": [ 81, 88 ],
 				"min_format": [ 81, 0 ],
 				"max_format": [ 88, 0 ]
+			},
+			{
+				"directory": "26.2-snapshot-7",
+				"formats": [ 87, 88 ],
+				"min_format": [ 87, 0 ],
+				"max_format": [ 88, 0 ]
 			}
 		]
 	}

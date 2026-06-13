@@ -87,6 +87,11 @@
 			"type": "minecraft:directory",
 			"prefix": "entity/projectiles/",
 			"source": "entity/projectiles"
+		},
+		{
+			"type": "minecraft:directory",
+			"prefix": "entity/signs/",
+			"source": "entity/signs"
 		}
 	]
 }
