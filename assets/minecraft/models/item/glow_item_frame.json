@@ -1,0 +1,8 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/item_frame",
+	"textures": {
+		"layer0": "minecraft:item/glow_item_frame",
+		"layer1": "minecraft:item/glow_item_frame_back"
+	}
+}

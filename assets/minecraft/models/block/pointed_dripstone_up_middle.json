@@ -3,7 +3,7 @@
 	"parent": "minecraft:block/pointed_dripstone",
 	"ambientocclusion": true,
 	"textures": {
-		"cross": "minecraft:block/pointed_dripstone_up_base",
+		"cross": "minecraft:block/pointed_dripstone_up_middle",
 		"top": "minecraft:block/dripstone_block"
 	},
 	"elements": [

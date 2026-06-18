@@ -2,7 +2,7 @@
 	"author": "Dream Star",
 	"parent": "minecraft:item/display_item",
 	"textures": {
-		"layer0": "minecraft:item/glass_bottle",
+		"layer0": "minecraft:item/glass_bottle_in_hand",
 		"particle": "#layer1"
 	},
 	"elements": [
@@ -238,9 +238,6 @@
 		}
 	],
 	"display": {
-		"gui": {
-			"translation": [ 0.5, 0, 0 ]
-		},
 		"thirdperson_righthand": {
 			"rotation": [ 45, 45, 0 ],
 			"scale": [ 0.375, 0.375, 0.375 ]

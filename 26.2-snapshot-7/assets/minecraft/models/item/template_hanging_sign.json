@@ -1,6 +1,7 @@
 {
 	"author": "Dream Star",
 	"parent": "minecraft:block/template_wall_hanging_sign",
+	"gui_light": "front",
 	"display": {
 		"gui": {
 			"rotation": [ 30, 225, 0 ],

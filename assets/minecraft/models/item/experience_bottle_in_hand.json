@@ -3,8 +3,8 @@
 	"parent": "minecraft:item/glass_bottle",
 	"textures": {
 		"layer0": "minecraft:item/experience_bottle_overlay",
-		"layer1": "minecraft:item/experience_bottle",
-		"layer2": "item/experience_bottle1"
+		"layer1": "minecraft:item/experience_bottle_in_hand",
+		"layer2": "minecraft:item/experience_bottle1"
 	},
 	"elements": [
 		{

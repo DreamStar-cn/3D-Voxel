@@ -1,0 +1,58 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/display_item",
+	"textures": {
+		"all": "minecraft:block/bamboo_stalk",
+		"texture": "minecraft:block/bamboo_small_leaves"
+	},
+	"elements": [
+		{
+			"from": [ 7, 0, 7 ],
+			"to": [ 9, 16, 9 ],
+			"faces": {
+				"north": { "uv": [ 9, 0, 11, 16 ], "texture": "#all" },
+				"east":  { "uv": [ 9, 0, 11, 16 ], "texture": "#all" },
+				"south": { "uv": [ 9, 0, 11, 16 ], "texture": "#all" },
+				"west":  { "uv": [ 9, 0, 11, 16 ], "texture": "#all" },
+				"up":    { "uv": [ 13, 0, 15, 2 ], "texture": "#all" },
+				"down":  { "uv": [ 13, 4, 15, 6 ], "texture": "#all" }
+			}
+		},
+		{
+			"from": [ 4, 12, 0 ],
+			"to": [ 12, 12, 8 ],
+			"rotation": { "angle": -22.5, "axis": "x", "origin": [ 9, 12, 7 ] },
+			"faces": {
+				"up":    { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+				"down":  { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"from": [ 0, 12, 4 ],
+			"to": [ 8, 12, 12 ],
+			"rotation": { "angle": 22.5, "axis": "z", "origin": [ 7, 12, 9 ] },
+			"faces": {
+				"up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#texture" },
+				"down":  { "uv": [ 16, 0, 0, 16 ], "rotation": 90, "texture": "#texture" }
+			}
+		},
+		{
+			"from": [ 8, 12, 4 ],
+			"to": [ 16, 12, 12 ],
+			"rotation": { "angle": -22.5, "axis": "z", "origin": [ 9, 12, 7 ] },
+			"faces": {
+				"up":    { "uv": [ 16, 16, 0, 0 ], "rotation": 90, "texture": "#texture" },
+				"down":  { "uv": [ 0, 16, 16, 0 ], "rotation": 90, "texture": "#texture" }
+			}
+		},
+		{
+			"from": [ 4, 12, 8 ],
+			"to": [ 12, 12, 16 ],
+			"rotation": { "angle": 22.5, "axis": "x", "origin": [ 7, 12, 9 ] },
+			"faces": {
+				"up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"down":  { "uv": [ 0, 16, 16, 0 ], "texture": "#texture" }
+			}
+		}
+	]
+}

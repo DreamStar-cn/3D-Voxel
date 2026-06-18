@@ -1,6 +1,7 @@
 {
 	"author": "Dream Star",
 	"parent": "minecraft:block/block",
+	"gui_light": "front",
 	"elements": [
 		{
 			"from": [ 7.33333, 0, 7.33333 ],

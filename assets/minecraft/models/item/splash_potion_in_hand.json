@@ -2,7 +2,7 @@
 	"author": "Dream Star",
 	"parent": "minecraft:item/glass_bottle",
 	"textures": {
-		"layer0": "minecraft:item/potion_overlay",
+		"layer0": "minecraft:item/potion_overlay_in_hand",
 		"layer1": "minecraft:item/splash_potion"
 	},
 	"elements": [
