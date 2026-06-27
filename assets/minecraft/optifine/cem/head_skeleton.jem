@@ -1,0 +1,13 @@
+{
+	"author": "Dream Star",
+	"textureSize": [ 64, 32 ],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"model": "skeleton_head.jpm"
+		}
+	]
+}

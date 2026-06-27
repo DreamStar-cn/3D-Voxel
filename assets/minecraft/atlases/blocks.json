@@ -90,6 +90,11 @@
 		},
 		{
 			"type": "minecraft:directory",
+			"prefix": "entity/shulker/",
+			"source": "entity/shulker"
+		},
+		{
+			"type": "minecraft:directory",
 			"prefix": "entity/signs/",
 			"source": "entity/signs"
 		}

@@ -3,8 +3,8 @@
 	"textureSize": [ 32, 16 ],
 	"models": [
 		{
-			"part": "shell",
-			"id": "shell",
+			"part": "base",
+			"id": "base",
 			"invertAxis": "xy",
 			"translate": [ 0, -24, 0 ],
 			"boxes": [
