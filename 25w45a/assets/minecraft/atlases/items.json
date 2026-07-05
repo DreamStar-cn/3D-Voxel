@@ -55,6 +55,11 @@
 		},
 		{
 			"type": "minecraft:directory",
+			"prefix": "entity/equipment/",
+			"source": "entity/equipment"
+		},
+		{
+			"type": "minecraft:directory",
 			"prefix": "entity/projectiles/",
 			"source": "entity/projectiles"
 		},

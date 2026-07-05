@@ -80,6 +80,11 @@
 			"resource": "minecraft:entity/end_crystal/end_crystal"
 		},
 		{
+			"type": "minecraft:directory",
+			"prefix": "entity/equipment/",
+			"source": "entity/equipment"
+		},
+		{
 			"type": "minecraft:single",
 			"resource": "minecraft:entity/minecart"
 		},

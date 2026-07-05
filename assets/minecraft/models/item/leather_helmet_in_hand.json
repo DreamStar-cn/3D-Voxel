@@ -1,0 +1,58 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/helmet",
+	"textures": {
+		"helmet": "minecraft:entity/equipment/humanoid/leather",
+		"overlay": "minecraft:entity/equipment/humanoid/leather_overlay"
+	},
+	"elements": [
+		{
+			"from": [ 3, 3, 3 ],
+			"to": [ 13, 13, 13 ],
+			"faces": {
+				"north": { "uv": [ 2, 4, 4, 8 ], "texture": "#helmet", "tintindex": 0 },
+				"east":  { "uv": [ 0, 4, 2, 8 ], "texture": "#helmet", "tintindex": 0 },
+				"south": { "uv": [ 6, 4, 8, 8 ], "texture": "#helmet", "tintindex": 0 },
+				"west":  { "uv": [ 4, 4, 6, 8 ], "texture": "#helmet", "tintindex": 0 },
+				"up":    { "uv": [ 4, 4, 2, 0 ], "texture": "#helmet", "tintindex": 0 },
+				"down":  { "uv": [ 6, 0, 4, 4 ], "texture": "#helmet", "tintindex": 0 }
+			}
+		},
+		{
+			"from": [ 2.999, 2.999, 2.999 ],
+			"to": [ 13.001, 13.001, 13.001 ],
+			"faces": {
+				"north": { "uv": [ 2, 4, 4, 8 ], "texture": "#overlay"},
+				"east":  { "uv": [ 0, 4, 2, 8 ], "texture": "#overlay"},
+				"south": { "uv": [ 6, 4, 8, 8 ], "texture": "#overlay"},
+				"west":  { "uv": [ 4, 4, 6, 8 ], "texture": "#overlay"},
+				"up":    { "uv": [ 4, 4, 2, 0 ], "texture": "#overlay"},
+				"down":  { "uv": [ 6, 0, 4, 4 ], "texture": "#overlay"}
+			}
+		},
+		{
+			"from": [ 3, 13, 3 ],
+			"to": [ 13, 3, 13 ],
+			"faces": {
+				"north": { "uv": [ 2, 8, 4, 4 ], "texture": "#helmet", "tintindex": 0 },
+				"east":  { "uv": [ 0, 8, 2, 4 ], "texture": "#helmet", "tintindex": 0 },
+				"south": { "uv": [ 6, 8, 8, 4 ], "texture": "#helmet", "tintindex": 0 },
+				"west":  { "uv": [ 4, 8, 6, 4 ], "texture": "#helmet", "tintindex": 0 },
+				"up":    { "uv": [ 6, 4, 4, 0 ], "texture": "#helmet", "tintindex": 0 },
+				"down":  { "uv": [ 4, 0, 2, 4 ], "texture": "#helmet", "tintindex": 0 }
+			}
+		},
+		{
+			"from": [ 3.001, 12.999, 3.001 ],
+			"to": [ 12.999, 3.001, 12.999 ],
+			"faces": {
+				"north": { "uv": [ 2, 8, 4, 4 ], "texture": "#overlay"},
+				"east":  { "uv": [ 0, 8, 2, 4 ], "texture": "#overlay"},
+				"south": { "uv": [ 6, 8, 8, 4 ], "texture": "#overlay"},
+				"west":  { "uv": [ 4, 8, 6, 4 ], "texture": "#overlay"},
+				"up":    { "uv": [ 6, 4, 4, 0 ], "texture": "#overlay"},
+				"down":  { "uv": [ 4, 0, 2, 4 ], "texture": "#overlay"}
+			}
+		}
+	]
+}

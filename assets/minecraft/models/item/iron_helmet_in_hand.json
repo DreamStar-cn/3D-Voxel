@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/helmet",
+	"textures": {
+		"helmet": "minecraft:entity/equipment/humanoid/iron"
+	}
+}

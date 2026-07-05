@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/leggings",
+	"textures": {
+		"leggings": "minecraft:entity/equipment/humanoid_leggings/netherite"
+	}
+}

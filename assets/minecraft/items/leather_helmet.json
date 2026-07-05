@@ -1,0 +1,28 @@
+{
+	"author": "Dream Star",
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/leather_helmet",
+					"tints": [
+						{ "type": "minecraft:dye", "default": -6265536 }
+					]
+				},
+				"when": [
+					"gui"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/leather_helmet_in_hand",
+			"tints": [
+				{ "type": "minecraft:dye", "default": -6265536 }
+			]
+		}
+	}
+}
