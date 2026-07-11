@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/nautilus_armor",
+	"textures": {
+		"armor": "minecraft:entity/equipment/nautilus_body/gold"
+	}
+}

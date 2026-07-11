@@ -1,0 +1,52 @@
+{
+	"author": "Dream Star",
+	"textures": {
+		"saddle": "minecraft:entity/equipment/horse_saddle/saddle"
+	},
+	"elements": [
+		{
+			"from": [ 2.5, 3, 3 ],
+			"to": [ 13.5, 13, 13 ],
+			"faces": {
+				"north": { "uv": [ 8.75, 2.25, 11.25, 4.5 ], "texture": "#saddle" },
+				"east":  { "uv": [ 6.5, 2.25, 8.75, 4.5 ], "texture": "#saddle" },
+				"south": { "uv": [ 13.5, 2.25, 16, 4.5 ], "texture": "#saddle" },
+				"west":  { "uv": [ 11.25, 2.25, 13.5, 4.5 ], "texture": "#saddle" },
+				"up":    { "uv": [ 11.25, 2.25, 8.75, 0 ], "texture": "#saddle" }
+			}
+		},
+		{
+			"from": [ 2.5, 13, 3 ],
+			"to": [ 13.5, 3, 13 ],
+			"faces": {
+				"north": { "uv": [ 8.75, 4.5, 11.25, 2.25 ], "texture": "#saddle" },
+				"east":  { "uv": [ 6.5, 4.5, 8.75, 2.25 ], "texture": "#saddle" },
+				"south": { "uv": [ 13.5, 4.5, 16, 2.25 ], "texture": "#saddle" },
+				"west":  { "uv": [ 11.25, 4.5, 13.5, 2.25 ], "texture": "#saddle" },
+				"down":  { "uv": [ 11.25, 0, 8.75, 2.25 ], "texture": "#saddle" }
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [ 0, 2, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"head": {
+			"scale": [ 1.5, 1.5, 1.5 ]
+		},
+		"on_shelf": {
+			"rotation": [ 0, 180, 0 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 75, 45, 0 ],
+			"translation": [ 0, 2.5, 0 ],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, 45, 0 ],
+			"translation": [ 0, 1.6, 0 ],
+			"scale": [ 0.4, 0.4, 0.4 ]
+		}
+	}
+}

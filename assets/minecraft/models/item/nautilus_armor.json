@@ -1,0 +1,81 @@
+{
+	"author": "Dream Star",
+	"gui_light": "front",
+	"elements": [
+		{
+			"from": [ 1, -1, 13 ],
+			"to": [ 15, 7, 13 ],
+			"faces": {
+				"south": { "uv": [ 7.75, 3.25, 6, 4.25 ], "texture": "#armor" }
+			}
+		},
+		{
+			"from": [ 0.99, 6.99, -0.01 ],
+			"to": [ 15.01, 17.01, 16.01 ],
+			"faces": {
+				"north": { "uv": [ 2, 2, 3.75, 3.25 ], "texture": "#armor" },
+				"east":  { "uv": [ 0, 2, 2, 3.25 ], "texture": "#armor" },
+				"south": { "uv": [ 5.75, 2, 7.5, 3.25 ], "texture": "#armor" },
+				"west":  { "uv": [ 3.75, 2, 5.75, 3.25 ], "texture": "#armor" },
+				"up":    { "uv": [ 3.75, 2, 2, 0 ], "texture": "#armor" },
+				"down":  { "uv": [ 5.5, 0, 3.75, 2 ], "texture": "#armor" }
+			}
+		},
+		{
+			"from": [ 0.99, -1.01, -0.01 ],
+			"to": [ 15.01, 7.01, 20.01 ],
+			"faces": {
+				"north": { "uv": [ 2.5, 5.75, 4.25, 6.75 ], "texture": "#armor" },
+				"east":  { "uv": [ 0, 5.75, 2.5, 6.75 ], "texture": "#armor" },
+				"south": { "uv": [ 6.75, 5.75, 8.5, 6.75 ], "texture": "#armor" },
+				"west":  { "uv": [ 4.25, 5.75, 6.75, 6.75 ], "texture": "#armor" },
+				"up":    { "uv": [ 4.25, 5.75, 2.5, 3.25 ], "texture": "#armor" },
+				"down":  { "uv": [ 6, 3.25, 4.25, 5.75 ], "texture": "#armor" }
+			}
+		},
+		{
+			"from": [ 0.99, 7.01, -0.01 ],
+			"to": [ 15.01, -1.01, 20.01 ],
+			"faces": {
+				"north": { "uv": [ 2.5, 6.75, 4.25, 5.75 ], "texture": "#armor" },
+				"east":  { "uv": [ 0, 6.75, 2.5, 5.75 ], "texture": "#armor" },
+				"south": { "uv": [ 6.75, 6.75, 8.5, 5.75 ], "texture": "#armor" },
+				"west":  { "uv": [ 4.25, 6.75, 6.75, 5.75 ], "texture": "#armor" },
+				"up":    { "uv": [ 6, 3.25, 4.25, 5.75 ], "texture": "#armor" },
+				"down":  { "uv": [ 4.25, 5.75, 2.5, 3.25 ], "texture": "#armor" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [ 30, -135, 0 ],
+			"translation": [ 0.8492, 0, 0 ],
+			"scale": [ 0.6005, 0.6005, 0.6005 ]
+		},
+		"ground": {
+			"translation": [ 0, 2, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"head": {
+			"scale": [ 1.1, 1.1, 1.1 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 90, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"on_shelf": {
+			"rotation": [ 0, -90, 0 ],
+			"scale": [ 0.75, 0.75, 0.75 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 75, 45, 0 ],
+			"translation": [ 0, 2.5, 0 ],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, 45, 0 ],
+			"translation": [ 0, 1.6, 0 ],
+			"scale": [ 0.4, 0.4, 0.4 ]
+		}
+	}
+}

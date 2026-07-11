@@ -1,0 +1,80 @@
+{
+	"author": "Dream Star",
+	"gui_light": "front",
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 4, 4, 8, 8 ], "texture": "#harness" },
+				"east":  { "uv": [ 0, 4, 4, 8 ], "texture": "#harness" },
+				"south": { "uv": [ 12, 4, 16, 8 ], "texture": "#harness" },
+				"west":  { "uv": [ 8, 4, 12, 8 ], "texture": "#harness" },
+				"up":    { "uv": [ 8, 4, 4, 0 ], "texture": "#harness" },
+				"down":  { "uv": [ 12, 0, 8, 4 ], "texture": "#harness" }
+			}
+		},
+		{
+			"from": [ 0, 16, 0 ],
+			"to": [ 16, 0, 16 ],
+			"faces": {
+				"north": { "uv": [ 4, 8, 8, 4 ], "texture": "#harness" },
+				"east":  { "uv": [ 0, 8, 4, 4 ], "texture": "#harness" },
+				"south": { "uv": [ 12, 8, 16, 4 ], "texture": "#harness" },
+				"west":  { "uv": [ 8, 8, 12, 4 ], "texture": "#harness" },
+				"up":    { "uv": [ 12, 0, 8, 4 ], "texture": "#harness" },
+				"down":  { "uv": [ 8, 4, 4, 0 ], "texture": "#harness" }
+			}
+		},
+		{
+			"from": [ -0.15, 7.35, -0.15 ],
+			"to": [ 16.15, 12.65, 5.15 ],
+			"faces": {
+				"north": { "uv": [ 1.25, 9.25, 5.25, 10.5 ], "texture": "#harness" },
+				"east":  { "uv": [ 0, 9.25, 1.25, 10.5 ], "texture": "#harness" },
+				"south": { "uv": [ 6.5, 9.25, 10.5, 10.5 ], "texture": "#harness" },
+				"west":  { "uv": [ 5.25, 9.25, 6.5, 10.5 ], "texture": "#harness" },
+				"up":    { "uv": [ 5.25, 9.25, 1.25, 8 ], "texture": "#harness" },
+				"down":  { "uv": [ 9.25, 8, 5.25, 9.25 ], "texture": "#harness" }
+			}
+		},
+		{
+			"from": [ -0.15, 12.65, -0.15 ],
+			"to": [ 16.15, 7.35, 5.15 ],
+			"faces": {
+				"north": { "uv": [ 1.25, 10.5, 5.25, 9.25 ], "texture": "#harness" },
+				"east":  { "uv": [ 0, 10.5, 1.25, 9.25 ], "texture": "#harness" },
+				"south": { "uv": [ 6.5, 10.5, 10.5, 9.25 ], "texture": "#harness" },
+				"west":  { "uv": [ 5.25, 10.5, 6.5, 9.25 ], "texture": "#harness" },
+				"up":    { "uv": [ 9.25, 8, 5.25, 9.25 ], "texture": "#harness" },
+				"down":  { "uv": [ 5.25, 9.25, 1.25, 8 ], "texture": "#harness" }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [ 30, 135, 0 ],
+			"scale": [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"translation": [ 0, 2, 0 ],
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"scale": [ 0.5, 0.5, 0.5 ]
+		},
+		"on_shelf": {
+			"rotation": [ 0, 180, 0 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 75, 45, 0 ],
+			"translation": [ 0, 2.5, 0 ],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, 135, 0 ],
+			"translation": [ 0, 1.6, 0 ],
+			"scale": [ 0.4, 0.4, 0.4 ]
+		}
+	}
+}

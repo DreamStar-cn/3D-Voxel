@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/harness",
+	"textures": {
+		"harness": "minecraft:entity/equipment/happy_ghast_body/brown_harness"
+	}
+}
