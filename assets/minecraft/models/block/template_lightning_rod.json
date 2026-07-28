@@ -34,6 +34,9 @@
 			"rotation": [ -180, 0, 0 ],
 			"translation": [ 8.5, 4, 0 ]
 		},
+		"on_shelf": {
+			"translation": [ 0, 0, -6 ]
+		},
 		"thirdperson_righthand": {
 			"translation": [ 0, 2, 0.5 ],
 			"scale": [ 0.40, 0.40, 0.40 ]

@@ -19,7 +19,9 @@
 		"fixed": {
 			"rotation": [ 0, 180, 0 ]
 		},
-		"on_shelf": {},
+		"on_shelf": {
+			"translation": [ 0, 0, -6 ]
+		},
 		"thirdperson_righthand": {
 			"translation": [ 0, 3, 1 ],
 			"scale": [ 0.55, 0.55, 0.55 ]

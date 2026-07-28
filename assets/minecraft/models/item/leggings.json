@@ -71,7 +71,8 @@
 			"translation": [ 0, 13, 7 ]
 		},
 		"on_shelf": {
-			"rotation": [ 0, 180, 0 ]
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -5.45 ]
 		},
 		"thirdperson_righthand": {
 			"rotation": [ 75, 45, 0 ],

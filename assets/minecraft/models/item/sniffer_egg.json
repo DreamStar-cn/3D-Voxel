@@ -26,6 +26,9 @@
 	"display": {
 		"head": {
 			"translation": [ 0, 13, 0 ]
+		},
+		"on_shelf": {
+			"translation": [ 0, 0, -2 ]
 		}
 	}
 }

@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/leaves",
+	"textures": {
+		"all": "minecraft:block/orange_poplar_leaves"
+	}
+}

@@ -78,5 +78,10 @@
 				"down":  { "uv": [ 12, 15, 14, 16 ], "texture": "#rail" }
 			}
 		}
-	]
+	],
+	"display": {
+		"on_shelf": {
+			"translation": [ 0, 0, -7 ]
+		}
+	}
 }

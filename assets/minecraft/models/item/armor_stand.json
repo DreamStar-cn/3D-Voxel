@@ -121,6 +121,7 @@
 		},
 		"on_shelf": {
 			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -5 ],
 			"scale": [ 0.5, 0.5, 0.5 ]
 		},
 		"thirdperson_righthand": {

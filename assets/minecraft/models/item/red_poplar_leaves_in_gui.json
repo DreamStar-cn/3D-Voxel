@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/leaves_in_gui",
+	"textures": {
+		"all": "minecraft:block/red_poplar_leaves"
+	}
+}

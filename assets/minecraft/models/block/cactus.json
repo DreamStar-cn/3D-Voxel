@@ -574,5 +574,10 @@
 				"west":  { "uv": [ 5, 1, 6, 2 ], "texture": "#side" }
 			}
 		}
-	]
+	],
+	"display": {
+		"on_shelf": {
+			"translation": [ 0, 0, -1 ]
+		}
+	}
 }

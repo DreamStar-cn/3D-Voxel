@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/chiseled_copper",
+	"textures": {
+		"all": "minecraft:block/oxidized_chiseled_copper"
+	}
+}

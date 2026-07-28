@@ -3,6 +3,7 @@
 	"parent": "minecraft:item/spyglass_in_hand",
 	"display": {
 		"on_shelf": {
+			"translation": [ 0, 0, -6.35 ],
 			"scale": [ 1.5, 1.5, 1.5 ]
 		}
 	}

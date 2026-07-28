@@ -84,8 +84,7 @@
 			"scale": [ 1.5, 1.5, 1.5 ]
 		},
 		"on_shelf": {
-			"translation": [ 0, 0, 0.05 ],
-			"scale": [ 2, 2, 2 ]
+			"scale": [ 1.99, 1.99, 1.99 ]
 		},
 		"thirdperson_righthand": {
 			"rotation": [ 75, 45, 0 ],

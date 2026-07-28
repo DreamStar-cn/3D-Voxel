@@ -283,6 +283,7 @@
 		},
 		"on_shelf": {
 			"rotation": [ 0, 90, 0 ],
+			"translation": [ 0, 0, -4.8 ],
 			"scale": [ 0.75, 0.75, 0.75 ]
 		},
 		"thirdperson_righthand": {

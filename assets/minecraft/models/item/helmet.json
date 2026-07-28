@@ -32,7 +32,8 @@
 			"scale": [ 0.5, 0.5, 0.5 ]
 		},
 		"on_shelf": {
-			"rotation": [ 0, 180, 0 ]
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -2.95 ]
 		},
 		"thirdperson_righthand": {
 			"rotation": [ 75, 45, 0 ],

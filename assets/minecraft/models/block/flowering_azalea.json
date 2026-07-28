@@ -1,6 +1,6 @@
 {
 	"author": "Dream Star",
-	"parent": "minecraft:block/template_azalea",
+	"parent": "minecraft:block/azalea",
 	"textures": {
 		"bottom": "minecraft:block/azalea_top",
 		"side": "minecraft:block/flowering_azalea_side",

@@ -366,6 +366,9 @@
 		}
 	],
 	"display": {
+		"on_shelf": {
+			"translation": [ 0, 0, -7 ]
+		},
 		"thirdperson_righthand": {
 			"rotation": [ -90, 0, -60 ],
 			"translation": [ 2, 0.1, -3 ],

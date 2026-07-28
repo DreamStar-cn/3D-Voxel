@@ -34,6 +34,7 @@
 			"translation": [ 0, 4.5, 0 ]
 		},
 		"on_shelf": {
+			"translation": [ 0, 0, -4 ],
 			"scale": [ 2, 2, 2 ]
 		},
 		"thirdperson_righthand": {

@@ -14,5 +14,10 @@
 				"down":  { "uv": [ 9, 16, 7, 0 ], "rotation": 90, "texture": "#edge" }
 			}
 		}
-	]
+	],
+	"display": {
+		"on_shelf": {
+			"translation": [ 0, 0, -7 ]
+		}
+	}
 }
