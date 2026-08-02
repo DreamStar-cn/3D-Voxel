@@ -50,6 +50,11 @@
 			"source": "entity/chest_boat"
 		},
 		{
+			"type": "minecraft:directory",
+			"prefix": "entity/cushion/",
+			"source": "entity/cushion"
+		},
+		{
 			"type": "minecraft:single",
 			"resource": "minecraft:entity/end_crystal/end_crystal"
 		},

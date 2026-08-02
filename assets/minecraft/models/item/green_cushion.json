@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:item/cushion",
+	"textures": {
+		"cushion": "minecraft:entity/cushion/green_cushion"
+	}
+}

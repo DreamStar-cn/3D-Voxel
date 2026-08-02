@@ -1,0 +1,44 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/door_bottom_right",
+	"ambientocclusion": true,
+	"textures": {
+		"bottom": "minecraft:block/poplar_door_bottom",
+		"bottom1": "minecraft:block/poplar_door_bottom1"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 3, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 16, 0, 13, 16 ], "texture": "#bottom1", "cullface": "north" },
+				"east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom" },
+				"south": { "uv": [ 0, 0, 3, 16 ], "texture": "#bottom1", "cullface": "south" },
+				"west":  { "uv": [ 16, 0, 0, 16 ], "texture": "#bottom", "cullface": "west" },
+				"down":  { "uv": [ 3, 0, 6, 16 ], "texture": "#bottom1", "cullface": "down" }
+			}
+		},
+		{
+			"from": [ -0.999, 14.001, 1.001 ],
+			"to": [ 4, 14.999, 2.999 ],
+			"faces": {
+				"north": { "uv": [ 14, 1, 15, 2 ], "texture": "#bottom" },
+				"east":  { "uv": [ 13, 1, 15, 2 ], "texture": "#bottom" },
+				"south": { "uv": [ 13, 1, 14, 2 ], "texture": "#bottom" },
+				"west":  { "uv": [ 15, 1, 13, 2 ], "texture": "#bottom", "cullface": "west" },
+				"up":    { "uv": [ 15, 1, 13, 2 ], "rotation": 90, "texture": "#bottom" },
+				"down":  { "uv": [ 13, 1, 15, 2 ], "rotation": 90, "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ -0.999, 15.001, 1.001 ],
+			"to": [ 4, 16, 1.999 ],
+			"faces": {
+				"north": { "uv": [ 14, 0, 15, 1 ], "texture": "#bottom" },
+				"east":  { "uv": [ 14, 0, 15, 1 ], "texture": "#bottom" },
+				"south": { "uv": [ 14, 0, 15, 1 ], "texture": "#bottom" },
+				"west":  { "uv": [ 14, 0, 15, 1 ], "texture": "#bottom", "cullface": "west" }
+			}
+		}
+	]
+}
