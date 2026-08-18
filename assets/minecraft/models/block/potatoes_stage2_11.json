@@ -1,0 +1,22 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/crop",
+	"textures": {
+		"crop": "minecraft:block/potatoes_stage2_0",
+		"top": "minecraft:block/potatoes_top"
+	},
+	"elements": [
+		{
+			"from": [ 2.5, -1, 2.875 ],
+			"to": [ 5.5, -0.25, 5.125 ],
+			"rotation": { "angle": 22.5, "axis": "y", "origin": [ 4, 0, 4 ] },
+			"faces": {
+				"north": { "uv": [ 10, 15, 14, 16 ], "texture": "#crop" },
+				"east":  { "uv": [ 3, 15, 6, 16 ], "texture": "#crop" },
+				"south": { "uv": [ 10, 15, 14, 16 ], "texture": "#crop" },
+				"west":  { "uv": [ 3, 15, 6, 16 ], "texture": "#crop" },
+				"up":    { "uv": [ 3, 0, 7, 3 ], "texture": "#top" }
+			}
+		}
+	]
+}

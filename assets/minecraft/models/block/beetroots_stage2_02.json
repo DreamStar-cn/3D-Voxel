@@ -1,0 +1,22 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/crop",
+	"textures": {
+		"crop": "minecraft:block/beetroots_stage2_0",
+		"top": "minecraft:block/beetroots_top"
+	},
+	"elements": [
+		{
+			"from": [ 6, -1, 3 ],
+			"to": [ 8, 0, 5 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 7, 0, 4 ] },
+			"faces": {
+				"north": { "uv": [ 8, 15, 10, 16 ], "texture": "#crop" },
+				"east":  { "uv": [ 8, 15, 10, 16 ], "texture": "#crop" },
+				"south": { "uv": [ 8, 15, 10, 16 ], "texture": "#crop" },
+				"west":  { "uv": [ 8, 15, 10, 16 ], "texture": "#crop" },
+				"up":    { "uv": [ 0, 0, 2, 2 ], "texture": "#top" }
+			}
+		}
+	]
+}

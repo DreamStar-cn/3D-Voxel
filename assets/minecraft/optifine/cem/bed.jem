@@ -1,0 +1,109 @@
+{
+	"author": "Dream Star",
+	"textureSize": [ 64, 64 ],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{
+					"coordinates": [ 0, 10, 0, 0.5, 6, 4 ],
+					"uvEast":  [ 2, 14, 6, 20 ],
+					"uvSouth": [ 2, 14, 3, 20 ],
+					"uvUp":    [ 3, 15, 2, 14 ],
+					"uvDown":  [ 3, 19, 2, 20 ]
+				},
+				{ "coordinates": [ -16, 8, 0, 16, 16, 6 ], "textureOffset": [ 0, 0 ] },
+				{
+					"coordinates": [ -16.5, 10, 0, 0.5, 6, 4 ],
+					"uvSouth": [ 25, 14, 26, 20 ],
+					"uvWest":  [ 22, 14, 26, 20 ],
+					"uvUp":    [ 26, 15, 25, 14 ],
+					"uvDown":  [ 26, 19, 25, 20 ]
+				},
+				{
+					"coordinates": [ 0, 10, -0.5, 0.5, 6, 0.5 ],
+					"uvNorth": [ 6, 14, 7, 20 ],
+					"uvEast":  [ 5, 14, 6, 20 ],
+					"uvUp":    [ 6, 15, 5, 14 ],
+					"uvDown":  [ 6, 19, 5, 20 ]
+				},
+				{
+					"coordinates": [ -16, 10, -0.5, 16, 6, 0.5 ],
+					"uvNorth": [ 6, 14, 22, 20 ],
+					"uvUp":    [ 22, 15, 6, 14 ],
+					"uvDown":  [ 22, 19, 6, 20 ]
+				},
+				{
+					"coordinates": [ -16.5, 10, -0.5, 0.5, 6, 0.5 ],
+					"uvNorth": [ 21, 14, 22, 20 ],
+					"uvWest":  [ 22, 14, 23, 20 ],
+					"uvUp":    [ 23, 15, 22, 14 ],
+					"uvDown":  [ 23, 19, 22, 20 ]
+				},
+				{
+					"coordinates": [ -14, 17, -1, 12, 5, 1 ],
+					"uvNorth": [ 8, 8, 20, 13 ],
+					"uvEast":  [ 8, 8, 9, 13 ],
+					"uvWest":  [ 19, 8, 20, 13 ],
+					"uvUp":    [ 20, 8, 8, 9 ],
+					"uvDown":  [ 20, 12, 8, 13 ]
+				},
+				{
+					"coordinates": [ -13, 22, -1, 10, 1, 1 ],
+					"uvNorth": [ 9, 7, 19, 8 ],
+					"uvEast":  [ 9, 7, 10, 8 ],
+					"uvWest":  [ 18, 7, 19, 8 ],
+					"uvUp":    [ 19, 7, 9, 8 ]
+				}
+			]
+		},
+		{
+			"part": "foot",
+			"id": "foot",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ -16, 8, 0, 16, 16, 6 ], "textureOffset": [ 0, 22 ] }
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ -3, 15, 0, 3, 3, 3 ], "textureOffset": [ 50, 6 ] }
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ 13, 15, 0, 3, 3, 3 ], "textureOffset": [ 50, 18 ] }
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ -3, 15, -16, 3, 3, 3 ], "textureOffset": [ 50, 0 ] }
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [ 0, -24, 0 ],
+			"boxes": [
+				{ "coordinates": [ 13, 15, -16, 3, 3, 3 ], "textureOffset": [ 50, 12 ] }
+			]
+		}
+	]
+}

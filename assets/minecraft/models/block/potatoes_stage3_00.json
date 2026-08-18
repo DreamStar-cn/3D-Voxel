@@ -1,0 +1,7 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/potatoes_stage2_00",
+	"textures": {
+		"crop": "minecraft:block/potatoes_stage3_0"
+	}
+}

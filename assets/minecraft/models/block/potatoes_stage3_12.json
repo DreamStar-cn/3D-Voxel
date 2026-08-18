@@ -1,0 +1,46 @@
+{
+	"author": "Dream Star",
+	"parent": "minecraft:block/crop",
+	"textures": {
+		"crop": "minecraft:block/potatoes_stage3_0",
+		"top": "minecraft:block/potatoes_top"
+	},
+	"elements": [
+		{
+			"from": [ 2.5, -1, 2.5 ],
+			"to": [ 5.5, -0.25, 5.5 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 4, 0, 4 ] },
+			"faces": {
+				"north": { "uv": [ 10, 15, 14, 16 ], "texture": "#crop" },
+				"east":  { "uv": [ 2, 15, 6, 16 ], "texture": "#crop" },
+				"south": { "uv": [ 10, 15, 14, 16 ], "texture": "#crop" },
+				"west":  { "uv": [ 2, 15, 6, 16 ], "texture": "#crop" },
+				"up":    { "uv": [ 8, 0, 12, 4 ], "texture": "#top" }
+			}
+		},
+		{
+			"from": [ 3.25, -0.25, 2.5 ],
+			"to": [ 4.75, 0.5, 5.5 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 4, 0, 4 ] },
+			"faces": {
+				"north": { "uv": [ 11, 14, 13, 15 ], "texture": "#crop" },
+				"east":  { "uv": [ 10, 0, 11, 4 ], "rotation": 90, "texture": "#top" },
+				"south": { "uv": [ 11, 14, 13, 15 ], "texture": "#crop" },
+				"west":  { "uv": [ 9, 4, 10, 0 ], "rotation": 90, "texture": "#top" },
+				"up":    { "uv": [ 9, 0, 11, 4 ], "texture": "#top" }
+			}
+		},
+		{
+			"from": [ 2.5, -0.25, 3.25 ],
+			"to": [ 5.5, 0.5, 4.75 ],
+			"rotation": { "angle": 45, "axis": "y", "origin": [ 4, 0, 4 ] },
+			"faces": {
+				"north": { "uv": [ 12, 1, 8, 2 ], "texture": "#top" },
+				"east":  { "uv": [ 3, 14, 5, 15 ], "texture": "#crop" },
+				"south": { "uv": [ 8, 2, 12, 3 ], "texture": "#top" },
+				"west":  { "uv": [ 3, 14, 5, 15 ], "texture": "#crop" },
+				"up":    { "uv": [ 8, 1, 12, 3 ], "texture": "#top" }
+			}
+		}
+	]
+}

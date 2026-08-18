@@ -1,11 +1,11 @@
 {
 	"author": "Dream Star",
 	"pack": {
-		"description": "§fBy Dream Star\n§cAlpha 1.20.2 ~ 26.2",
-		"pack_format": 94,
-		"supported_formats": [ 16, 94 ],
+		"description": "§fBy Dream Star\n§a1.20.2 ~ 26.2",
+		"pack_format": 96,
+		"supported_formats": [ 16, 96 ],
 		"min_format": [ 16, 0 ],
-		"max_format": [ 94, 0 ]
+		"max_format": [ 96, 0 ]
 	},
 	"overlays": {
 		"entries": [
@@ -13,55 +13,49 @@
 				"directory": "24w33a",
 				"formats": [ 35, 64 ],
 				"min_format": [ 35, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			},
 			{
 				"directory": "25w16a",
 				"formats": [ 57, 64 ],
 				"min_format": [ 57, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			},
 			{
 				"directory": "25w45a",
-				"formats": [ 73, 94 ],
+				"formats": [ 73, 96 ],
 				"min_format": [ 73, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			},
 			{
 				"directory": "25w46a",
-				"formats": [ 74, 94 ],
+				"formats": [ 74, 96 ],
 				"min_format": [ 74, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			},
 			{
 				"directory": "26.1-snapshot-2",
-				"formats": [ 77, 94 ],
+				"formats": [ 77, 96 ],
 				"min_format": [ 77, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			},
 			{
 				"directory": "26.1-snapshot-7",
-				"formats": [ 81, 94 ],
+				"formats": [ 81, 96 ],
 				"min_format": [ 81, 0 ],
-				"max_format": [ 94, 0 ]
-			},
-			{
-				"directory": "26.2-snapshot-3",
-				"formats": [ 86, 94 ],
-				"min_format": [ 86, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			},
 			{
 				"directory": "26.2-snapshot-7",
-				"formats": [ 87, 94 ],
+				"formats": [ 87, 96 ],
 				"min_format": [ 87, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			},
 			{
 				"directory": "26.3-snapshot-4",
-				"formats": [ 92, 94 ],
+				"formats": [ 92, 96 ],
 				"min_format": [ 92, 0 ],
-				"max_format": [ 94, 0 ]
+				"max_format": [ 96, 0 ]
 			}
 		]
 	}
