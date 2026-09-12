@@ -33,6 +33,7 @@
 			"from": [ 7.5, 5, 8 ],
 			"to": [ 8.5, 8.5, 8 ],
 			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 6,
 			"rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ], "rescale": true },
 			"faces": {
@@ -44,6 +45,7 @@
 			"from": [ 8, 5, 7.5 ],
 			"to": [ 8, 8.5, 8.5 ],
 			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 6,
 			"rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ], "rescale": true },
 			"faces": {
