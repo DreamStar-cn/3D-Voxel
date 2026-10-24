@@ -1,0 +1,10 @@
+{
+	"author": "Dream Star",
+	"pack": {
+		"description": "§fBy Dream Star\n§a1.20.2 ~ 26.3",
+		"pack_format": 97,
+		"supported_formats": [ 16, 97 ],
+		"min_format": [ 16, 0 ],
+		"max_format": [ 97, 1 ]
+	}
+}
