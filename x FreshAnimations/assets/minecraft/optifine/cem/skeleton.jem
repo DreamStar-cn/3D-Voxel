@@ -21,6 +21,14 @@
 					"invertAxis": "xy",
 					"translate": [ 0, 0, 0 ]
 				}
+			],
+			"animations": [
+				{
+					"varb.21_2_plus": "true",
+					"varb.is_stray": "false",
+					"varb.is_bogged": "false",
+					"varb.is_parched": "false"
+				}
 			]
 		},
 		{

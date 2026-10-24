@@ -8,7 +8,7 @@
 			"invertAxis": "xy",
 			"translate": [ 0, 0, 0 ],
 			"attach": true,
-			"model": "stray_animations.jpm"
+			"model": "skeleton_animations.jpm"
 		},
 		{
 			"part": "head",
@@ -20,6 +20,14 @@
 					"id": "Created_by_FreshLX_for_Fresh_Animations",
 					"invertAxis": "xy",
 					"translate": [ 0, 0, 0 ]
+				}
+			],
+			"animations": [
+				{
+					"varb.21_2_plus": "true",
+					"varb.is_stray": "true",
+					"varb.is_bogged": "false",
+					"varb.is_parched": "false"
 				}
 			]
 		},

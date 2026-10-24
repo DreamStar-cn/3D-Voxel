@@ -7,7 +7,7 @@
 			"id": "root",
 			"invertAxis": "xy",
 			"translate": [ 0, 0, 0 ],
-			"model": "parched_animations.jpm"
+			"model": "skeleton_animations.jpm"
 		},
 		{
 			"part": "head",
@@ -19,6 +19,14 @@
 					"id": "Created_by_FreshLX_for_Fresh_Animations",
 					"invertAxis": "xy",
 					"translate": [ 0, 0, 0 ]
+				}
+			],
+			"animations": [
+				{
+					"varb.21_2_plus": "true",
+					"varb.is_stray": "false",
+					"varb.is_bogged": "false",
+					"varb.is_parched": "true"
 				}
 			]
 		},
